@@ -1,0 +1,7 @@
+@function rem-vw($rem, $vw-viewport) {
+	$rem: strip-unit(to-number($rem));
+	$vw-viewport: strip-unit(to-number($vw-viewport));
+	$base-line: strip-unit(to-number($base-line));
+
+	@return ((100 / ($vw-viewport * $base-line)) * ($rem * $base-line)) * 1vw;
+}

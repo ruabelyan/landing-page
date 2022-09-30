@@ -1,0 +1,724 @@
+{
+	"langs": [
+		{
+			"id": 0,
+			"langCode": "en",
+			"label": "English"
+		},
+		{
+			"id": 1,
+			"langCode": "es",
+			"label": "Spanish"
+		},
+		{
+			"id": 2,
+			"langCode": "pt",
+			"label": "Br-Portugues"
+		},
+		{
+			"id": 3,
+			"langCode": "ru",
+			"label": "Russian"
+		}
+	],
+	"navLinks": [
+		{
+			"id": 0,
+			"label": "Home",
+			"hrefTo": ["/"],
+			"category": "/"
+		},
+		{
+			"id": 1,
+			"label": "Products",
+			"hrefTo": [
+				"/products",
+				"/products-igaming-platform",
+				"/products-igaming-aggregator"
+			],
+			"category": "products"
+		},
+		{
+			"id": 2,
+			"label": "Solutions",
+			"hrefTo": ["/solutions", "/solutions-white-label", "/solutions-turnkey"],
+			"category": "solutions"
+		},
+		{
+			"id": 3,
+			"label": "Contacts",
+			"hrefTo": ["/contact-us", "/contact-us/#contacts"],
+			"category": "contact-us"
+		},
+		{
+			"id": 4,
+			"label": "API Documentation",
+			"hrefTo": ["/solutions/rgs/api"],
+			"category": "api"
+		}
+	],
+	"socialLinks": [
+		{
+			"id": 0,
+			"label": "Facebook",
+			"hrefTo": "https://www.facebook.com/atomconstruct.soft",
+			"icon": {
+				"label": "FacebookIcon",
+				"width": "17.67px"
+			}
+		},
+		{
+			"id": 1,
+			"label": "Instagram",
+			"hrefTo": "https://www.instagram.com/atom.construct/",
+			"icon": {
+				"label": "InstagramIcon",
+				"width": "17px"
+			}
+		},
+		{
+			"id": 2,
+			"label": "Twitter",
+			"hrefTo": "https://twitter.com/AtomConstruct",
+			"icon": {
+				"label": "TwitterIcon",
+				"width": "17px"
+			}
+		},
+		{
+			"id": 3,
+			"label": "Youtube",
+			"hrefTo": "https://www.youtube.com/channel/UCLzYwIhkd4hUFPcFgotdz9Q",
+			"icon": {
+				"label": "YoutubeIcon",
+				"width": "16.67px"
+			}
+		},
+		{
+			"id": 4,
+			"label": "linkedin",
+			"hrefTo": "https://www.linkedin.com/company/atomconstruct-soft/",
+			"icon": {
+				"label": "LinkedinIcon",
+				"width": "16px"
+			}
+		},
+		{
+			"id": 5,
+			"label": "pinterest",
+			"hrefTo": "http://www.pinterest.com/AtomConstruct",
+			"icon": {
+				"label": "LinkedinIcon",
+				"width": "11.99px"
+			}
+		}
+	],
+	"home.title": "Create your own<br />Casino with Atom",
+	"home.description": "Atom entered the market to change The Game",
+	"home.buttonLabel": "Get proposal",
+	"home.mainTitle": "About Us",
+	"home.mainDescription": "We are young and creative software company established in 2020. Each of our senior team members have more than 10 years of experience in online gambling and betting industry in different fields: software development, marketing, operations, management etc. We use cutting edge technology to provide seamless, secure and stable solutions for partners seeking to guarantee a quality gaming environment to players. All our products are created on Microservice architecture, therefore infinitely scalable. We can add any new functionality without any downtimes or technical issues. Atom provides AI based tools in compact and minimalist form which makes business of our partners easier, faster and much more economically efficient.",
+	"home.about.list": [
+		{
+			"id": 0,
+			"title": "Games",
+			"description": "Games are an integral part of any<br/>online casino",
+			"quantity": "11K"
+		},
+		{
+			"id": 1,
+			"title": "Providers",
+			"description": "We cooperate with the best online casino game providers to offer our partners quality, creative and innovative products",
+			"quantity": "125+"
+		},
+		{
+			"id": 2,
+			"title": "Partners",
+			"description": "Our solutions make your business<br/>technologically advanced and<br/>multifunctional",
+			"quantity": "150+"
+		}
+	],
+
+	"home.cardTitle": "Our Vision",
+	"home.cardsList": [
+		{
+			"id": 0,
+			"title": "Changing the iGaming industry mindset and way of business",
+			"description": ""
+		},
+		{
+			"id": 1,
+			"title": "Bringing new value through technical innovations and advanced AI",
+			"description": ""
+		}
+	],
+	"home.project.footer.offer": "Atom earns only when partner earns",
+	"home.project.copyright": "All Rights Reserved",
+
+	"products.title": "Atom Casino<br/>Products",
+	"products.description": "Easy way to be different.<br/>Whatever happens Atom just keeps working!",
+	"products.buttonLabel": "Get proposal",
+
+	"products.pageTitle": "Our Products",
+	"products.pageDescription": "We provide optimal and customized technical solutions for organizing online<br/> casino and gambling businesses without any setup fees",
+
+	"products.platform.title": "Atom Casino Engine",
+	"products.platform.description": "Atom Casino Engine is a user-friendly management tool. It is an environment from which the casino operator's staff can perform and manage the players’ full activity such as tracking and reporting their gaming history, follow up the financial transactions, manage the partnerships, monitor the statistical data",
+
+	"products.aggregator.title": "Atom Game Aggregator",
+	"products.aggregator.description": "Atom Game Aggregator provides more than 11К multilingual and mobile-friendly games from over 125 leading world famous game merchants in one place. Atom Game Aggregator will give the ability to manage, activate and control the whole game content which will be necessary for players’ satisfaction",
+
+	"productsIgamingPlatform.pageTitle": "Atom Casino Engine",
+	"productsIgamingPlatform.pageDescription": "Igaming Platform is a user-friendly management tool. It is an environment from which the casino operator's staff can perform and manage the players' full activity such as tracking and reporting their gaming history, follow up the financial transactions, manage the partnerships, monitor the statistical data",
+
+	"productsIgamingPlatformList": [
+		{
+			"id": 0,
+			"buttonSortId": 0,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "No setup fees",
+			"cardSortId": 0,
+			"title": "No setup fees",
+			"description": " ",
+			"hashHref": "1-weeg-igaming-business",
+			"icon": {
+				"name": "FastGoToMarket",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 1,
+			"buttonSortId": 1,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Based on AI",
+			"cardSortId": 1,
+			"title": "Based on AI",
+			"description": "All tools are based on AI",
+			"hashHref": "the-lowest-prices",
+			"icon": {
+				"name": "TheLowestPrices",
+				"width": "30.27px"
+			}
+		},
+
+		{
+			"id": 2,
+			"buttonSortId": 2,
+			"buttonTitleClassNameModify": "top-1",
+			"buttonTitle": "The lowest pricing rates",
+			"cardSortId": 2,
+			"title": "The lowest pricing rates",
+			"description": "The lowest pricing rates on the market",
+			"hashHref": "all-in-one-and-high-performance",
+			"icon": {
+				"name": "HighPerformance",
+				"width": "50px"
+			}
+		},
+
+		{
+			"id": 3,
+			"buttonSortId": 3,
+			"buttonTitleClassNameModify": "top-1",
+			"buttonTitle": "Less than a week to start",
+			"cardSortId": 3,
+			"title": "Less than a week to start",
+			"description": "Less than a week to start igambling business",
+			"hashHref": "all-in-one-and-high-performance",
+			"icon": {
+				"name": "HighPerformance",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 4,
+			"buttonSortId": 4,
+			"buttonTitleClassNameModify": "top-2",
+			"buttonTitle": "More than 11k games <span class='amp'>&</span> 125 game providers",
+			"cardSortId": 4,
+			"title": "More than 11k games <span class='amp'>&</span> 125 game providers",
+			"description": "More than 11k games for web and mobile <span class='amp'>&</span> 125 game providers",
+			"hashHref": "manage-players",
+			"icon": {
+				"name": "ManagePlayers",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 5,
+			"buttonSortId": 5,
+			"buttonTitleClassNameModify": "top-2",
+			"buttonTitle": "Up to 18k bets per second",
+			"cardSortId": 5,
+			"title": "Up to 18k bets per second",
+			"description": "Up to 18k bets per second – the best platform performance on the market",
+			"hashHref": "promotional-tools",
+			"icon": {
+				"name": "PromotionalTools",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 6,
+			"buttonSortId": 6,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Large diversity of game",
+			"cardSortId": 6,
+			"title": "Large diversity of game",
+			"description": "Large diversity of game content for any possible market (Classic, Video slots, Table games, Video poker, Virtual games, Live dealer, Fishing, Scratch, Bingo games and etc.)",
+			"hashHref": "advanced-ai",
+			"icon": {
+				"name": "AdvancedAi",
+				"width": "50px"
+			}
+		},
+
+		{
+			"id": 7,
+			"buttonSortId": 7,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "live reporting and monitoring tools",
+			"cardSortId": 7,
+			"title": "live reporting and monitoring tools",
+			"description": "Customized detailed live reporting and monitoring tools",
+			"hashHref": "website-builder-and-cms",
+			"icon": {
+				"name": "WebsiteBuilderCms",
+				"width": "46.67px"
+			}
+		},
+		{
+			"id": 8,
+			"buttonSortId": 8,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Seamless API",
+			"cardSortId": 8,
+			"title": "Seamless API",
+			"description": "One-time seamless API products suitable for integration to any platform",
+			"hashHref": "reporting-system",
+			"icon": {
+				"name": "",
+				"width": ""
+			}
+		},
+
+		{
+			"id": 9,
+			"buttonSortId": 9,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "24/7 support",
+			"cardSortId": 9,
+			"title": "24/7 support",
+			"description": "Multi-channel, multi-currency and multi-lingual 24/7 support",
+			"hashHref": "website-builder-and-cms",
+			"icon": {
+				"name": "WebsiteBuilderCms",
+				"width": "46.67px"
+			}
+		}
+	],
+	"productsIgamingAggregator.pageTitle": "iGaming Aggregator",
+	"productsIgamingAggregator.pageDescription": "iGaming Aggregator provides more than 10 000 multilingual and mobile-friendly games from over 100 leading world famous game merchants in one place",
+
+	"productsIgamingAggregatorList": [
+		{
+			"id": 0,
+			"buttonSortId": 0,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Flexible Bonus Engine",
+			"cardSortId": 0,
+			"title": "Flexible Bonus Engine",
+			"description": "Allows to attract more players with a new type of bonus that has never been seen before in the world",
+			"hashHref": "flexible-bonus-engine",
+			"icon": {
+				"name": "PromotionalTools",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 1,
+			"buttonSortId": 1,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Multiple languages<br/><span class='amp'>&</span> Multiple currencies",
+			"cardSortId": 1,
+			"title": "Multiple languages and Multiple currencies",
+			"description": "Providing a multilingual interface for businesses and with the ability to obtain multi-currency accounts",
+			"hashHref": "multiple-languages-and-multiple-currencies",
+			"icon": {
+				"name": "MulticurrencyMultilingual",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 2,
+			"buttonSortId": 2,
+			"buttonTitleClassNameModify": "top-1",
+			"buttonTitle": "10000+ games",
+			"cardSortId": 2,
+			"title": "Over 100 world famous game providers",
+			"description": "Nearly 10 000+ awesome games from world famous game studios",
+			"hashHref": "world-famous-game-providers",
+			"icon": {
+				"name": "Games10000",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 3,
+			"buttonSortId": 3,
+			"buttonTitleClassNameModify": "top-2",
+			"buttonTitle": "One-time API Integration",
+			"cardSortId": 3,
+			"title": "One-time API Integration with 3rd party PAM/Wallet",
+			"description": "A single straightforward API for all game aggregation needs. Quickly and easily Integration and Setup Thanks to our simple and easy API",
+			"hashHref": "one-time-api-integration",
+			"icon": {
+				"name": "OneTimeApiIntegration",
+				"width": "50px"
+			}
+		},
+
+		{
+			"id": 4,
+			"buttonSortId": 4,
+			"buttonTitleClassNameModify": "top-2",
+			"buttonTitle": "Reduced Time-to-market",
+			"cardSortId": 4,
+			"title": "Reduced Time-to-market",
+			"description": "Run in the shortest time possible and can go-to-market, about 1 weeks",
+			"hashHref": "reduced-time-to-market",
+			"icon": {
+				"name": "ReducedTimeToMarket",
+				"width": "50px"
+			}
+		},
+
+		{
+			"id": 5,
+			"buttonSortId": 5,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Over 100+ providers",
+			"cardSortId": 5,
+			"title": "Tested and proven HTML5 3rd party games",
+			"description": "Providing game content from world famous and popular game providers",
+			"hashHref": "over-100-providers",
+			"icon": {
+				"name": "OverProviders",
+				"width": "50px"
+			}
+		},
+
+		{
+			"id": 6,
+			"buttonSortId": 6,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "24/7 Support",
+			"cardSortId": 6,
+			"title": "24/7 Customer Support and Technical Customer Support",
+			"description": "Multilingual customer support. Full resolution of issues in 15 hours or less",
+			"hashHref": "support-24-7",
+			"icon": {
+				"name": "AnyTime",
+				"width": "50px"
+			}
+		},
+
+		{
+			"id": 7,
+			"buttonSortId": 7,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "",
+			"cardSortId": 7,
+			"title": "Ready-to-use online casino solution for short implementation time",
+			"description": "Help you create a ready-made project to get your iGaming business up and running in the shortest time possible, about 2 weeks",
+			"hashHref": "",
+			"icon": {
+				"name": "",
+				"width": ""
+			}
+		}
+	],
+
+	"solutions.title": "Solutions",
+	"solutions.description": "Being a pure B2B business, AtomConstruct provide two types of solutions with <strong>ZERO SETUP FEES</strong>. Atom is suitable for integrations of any gaming platform on the market",
+	"solutions.buttonLabel": "Get proposal",
+	"solutions.pageTitle": "Solutions",
+	"solutions.pageDescription": "Being a pure B2B business, AtomConstruct provide two types of solutions with <strong>ZERO SETUP FEES</strong>. Atom is suitable for integrations of any gaming platform on the market",
+
+	"solutions.cardsList[0].title": "White Label",
+	"solutions.cardsList[0].description": "White Label online casino is a cost-effective, user friendly solution aimed at launching your own casino within one week.<br /><br />Thanks to our architecture, we can provide our partner with a ready-made project to get their own iGaming business up and running in the shortest time possible",
+
+	"solutionsWhiteLabelList": [
+		{
+			"id": 0,
+			"buttonSortId": 0,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Market entry",
+			"cardSortId": 0,
+			"title": "Тhe fastest market entry: within one weeks",
+			"description": "Ready-to-use online casino solution for short implementation time",
+			"hashHref": "market-entry",
+			"icon": {
+				"name": "MarketEntry",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 1,
+			"buttonSortId": 1,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Cross platform",
+			"cardSortId": 1,
+			"title": "Cross-platform solution with powerful backoffice",
+			"description": "Providing products that will cover the daily work of partners within one back office",
+			"hashHref": "cross-platform",
+			"icon": {
+				"name": "CrossPlatform",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 2,
+			"buttonSortId": 2,
+			"buttonTitleClassNameModify": "top-1",
+			"buttonTitle": "No setup fee",
+			"cardSortId": 2,
+			"title": "No setup fee. You earn - we earn !!!",
+			"description": "Create your own online casino with ZERO investment!",
+			"hashHref": "no-setup-fee",
+			"icon": {
+				"name": "NoSetupFee",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 3,
+			"buttonSortId": 3,
+			"buttonTitleClassNameModify": "top-2",
+			"buttonTitle": "10 000+ games",
+			"cardSortId": 3,
+			"title": "10 000+ games from world famous top providers",
+			"description": "Popular casino games through just one API integration",
+			"hashHref": "games-10000",
+			"icon": {
+				"name": "MoreGames",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 4,
+			"buttonSortId": 4,
+			"buttonTitleClassNameModify": "top-2",
+			"buttonTitle": "Multicurrency <span class='amp'>&</span> Multilingual",
+			"cardSortId": 4,
+			"title": "Multicurrency and Unlimited number of languages",
+			"description": "Provide ability to get unlimited number of languages and currencies",
+			"hashHref": "multicurrency-multilingual",
+			"icon": {
+				"name": "MulticurrencyMultilingual2",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 5,
+			"buttonSortId": 5,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Interface",
+			"cardSortId": 5,
+			"title": "User-friendly interface with multi-language settings",
+			"description": "Provide a user-friendly interface that improves daily productivity and makes it easy to use",
+			"hashHref": "interface",
+			"icon": {
+				"name": "Interface",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 6,
+			"buttonSortId": 6,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "24/7 Support",
+			"cardSortId": 6,
+			"title": "24/7 Customer Support and Technical Customer Support",
+			"description": "Multilingual customer support. Full resolution of issues in 15 hours or less",
+			"hashHref": "support-24-7",
+			"icon": {
+				"name": "AnyTime2",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 7,
+			"buttonSortId": 7,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Promotional tools",
+			"cardSortId": 7,
+			"title": "Awesome Promotional tools",
+			"description": "Allows you to attract more players with a new type of bonuses that is not available in the world",
+			"hashHref": "",
+			"icon": {
+				"name": "",
+				"width": ""
+			}
+		}
+	],
+
+	"solutions.cardsList[1].title": "Turnkey",
+	"solutions.cardsList[1].description": "Turnkey online casino is a self-owned multi-functional online casino that gives you unlimited customisation opportunities.<br/><br/>Best suited for experienced iGaming operators, the turnkey online casino option provides the software and technical support you need to be independent",
+
+	"solutionsWhiteLabel.pageTitle": "White Label",
+	"solutionsWhiteLabel.pageDescription": "White Label online casino is a cost-effective, user friendly solution aimed at launching your own casino within one week.<br/>Thanks to our architecture, we can provide our partner with a ready-made project to get their own iGaming business up and running in the shortest time possible",
+
+	"solutionsTurnkey.pageTitle": "Turnkey",
+	"solutionsTurnkey.pageDescription": "Turnkey online casino is a self-owned multi-functional online casino that gives you unlimited customisation opportunities. Best suited for experienced iGaming operators, the turnkey online casino option provides the software and technical support you need to be independent.We will help you set up an iGaming business and get your own gaming license",
+
+	"solutionsTurnkeyList": [
+		{
+			"id": 0,
+			"buttonSortId": 0,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Multicurrency<br/> <span class='amp'>&</span> Multilingual",
+			"cardSortId": 0,
+			"title": "Multi-currency and multi-language solutions",
+			"description": "Provide ability to get unlimited number of languages and multi currency wallets ",
+			"hashHref": "multicurrency-multilingual",
+			"icon": {
+				"name": "MulticurrencyMultilingual3",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 1,
+			"buttonSortId": 1,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Risk management",
+			"cardSortId": 1,
+			"title": "Risk and fraud management",
+			"description": "An AI-powered risk management solution, will be designed to detect and manage risky players",
+			"hashHref": "risk-management",
+			"icon": {
+				"name": "RiskManagement",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 2,
+			"buttonSortId": 2,
+			"buttonTitleClassNameModify": "top-1",
+			"buttonTitle": "Payment gateways",
+			"cardSortId": 2,
+			"title": "Payment gateways",
+			"description": "We will provide a payment aggregator that includes many payment gateways offering popular payments depending on the location and market in which our partner would operate. Also we provide a free option to integrate any other payment method on partner request",
+			"hashHref": "payment-gateways",
+			"icon": {
+				"name": "PaymentGateways",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 3,
+			"buttonSortId": 3,
+			"buttonTitleClassNameModify": "top-2",
+			"buttonTitle": "Promotional tools",
+			"cardSortId": 3,
+			"title": "Awesome Promotional tools",
+			"description": "Allows you to attract more players with a new type of bonuses that is not available in the world",
+			"hashHref": "promotional-tools",
+			"icon": {
+				"name": "PromotionalTools2",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 4,
+			"buttonSortId": 4,
+			"buttonTitleClassNameModify": "top-2",
+			"buttonTitle": "CRM",
+			"cardSortId": 4,
+			"title": "CRM <span class='amp'>&</span> automated mailing system",
+			"description": "CRM will allow casinos to track and manage each of their players actions and identify which players are most valuable to the property",
+			"hashHref": "crm",
+			"icon": {
+				"name": "CRM",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 5,
+			"buttonSortId": 5,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "10 000+ games",
+			"cardSortId": 5,
+			"title": "Over 10 000 games from top providers",
+			"description": "Popular casino games are collected in one iGaming Aggregator, and through just one API integration you can get all the game conten",
+			"hashHref": "games-10000",
+			"icon": {
+				"name": "Games100002",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 6,
+			"buttonSortId": 6,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "No setup fee",
+			"cardSortId": 6,
+			"title": "No setup fee. You earn - we earn !!!",
+			"description": "Create your own online casino with ZERO investment!",
+			"hashHref": "no-setup-fee",
+			"icon": {
+				"name": "NoSetupFee2",
+				"width": "43.72px"
+			}
+		},
+
+		{
+			"id": 7,
+			"buttonSortId": 7,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "",
+			"cardSortId": 7,
+			"title": "24/7 Customer Support and Technical Customer Support",
+			"description": "Multilingual customer support. Full resolution of issues in 15 hours or less",
+			"hashHref": "",
+			"icon": {
+				"name": "",
+				"width": ""
+			}
+		}
+	],
+
+	"contacts.title": "We would love<br/>to hear from<br/>You!",
+	"contacts.description": "Atom provides opportunity to create online casino without any initial investments",
+	"contacts.buttonLabel": "Get proposal",
+	"contacts.sys.requiredField": "Required Field!",
+	"contacts.sys.nameMaxLength200": "The maximum length of name is 200",
+	"contacts.sys.InvalidEmail": "Invalid email",
+	"contacts.sys.nameMaxLength30": "The maximum length of phoneNumber is 30",
+	"contacts.sys.nameMaxLength50": "The maximum length of phoneNumber is 50",
+	"contacts.sys.nameMaxLength2000": "The maximum length of message is 2000",
+	"contacts.sys.popup.title": "Thank you!",
+	"contacts.sys.popup.subTitle": "Our sales manager will contact you as soon as possible",
+	"contacts.sys.popup.paragraph": "Just in case, please also check your spam folder within the next 24 hours, as our message might land there depending on your spam filter settings",
+	"contacts.sys.popup.buttonTitle": "Ok",
+	"contacts.sys.popup.error.title": "We're so sorry!",
+	"contacts.sys.popup.error.subTitle": "Something went wrong. Please try a little later",
+	"contacts.sys.popup.error.buttonTitle": "Ok",
+	"contacts.sys.popup.error.paragraph": "",
+	"contacts.pageTitle": "Get In Touch",
+	"contacts.field.name.placeholder": "e.g Nikola Tesla",
+	"contacts.field.name.label": "Your name",
+	"contacts.field.experience.label": "Describe your experience ",
+	"contacts.field.phone.label": "Phone",
+	"contacts.field.prefferedMessenger.label": "Preffered Messenger",
+	"contacts.field.yourMessage.label": "Your message",
+	"contacts.field.agreeCheckbox.label": "By pressing this button you agree to the processing of your personal data",
+	"contacts.field.messengerID": "e.g live:123456",
+	"contacts.field.messengerID.label": "Messenger ID",
+	"contacts.submit.btn": "Submit",
+	"contacts.field.textarea.placeholder": "Your text here...",
+	"contacts.field.email.label": "E-mail",
+	"e404.title": "Page Not Found!",
+	"e404.description": "We're unable to find the page you're<br /> looking for",
+	"e404.backButton": "Back To Home"
+}

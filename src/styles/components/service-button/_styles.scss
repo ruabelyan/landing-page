@@ -1,0 +1,89 @@
+// .circle-content-cell
+.circle-content-cell {
+	$this: #{&};
+	@include x-center;
+	@include flex(center, center);
+	@include size(calculate-rem(138px));
+	box-shadow: 0 0 20px rgba(get-color(dark1), 0.25);
+	outline: 2px solid get-color(white9);
+	background: get-color(white1);
+	overflow: hidden;
+	border-radius: 50%;
+	border: solid transparent 0 !important;
+
+	// .circle-content-cell--blue
+	&--blue {
+		color: get-color(blue4);
+	}
+
+	// .circle-content-cell--green
+	&--green {
+		color: get-color(green3);
+	}
+
+	// .circle-content-cell--link
+	&--link {
+		cursor: pointer;
+
+		// .circle-content-cell--link svg
+		svg {
+			transition: all linear 0.16s;
+		}
+	}
+
+	// .circle-content-cell__label
+	&__label {
+		@include museo(700);
+		font-size: calculate-rem(30px);
+		line-height: calculate-rem(36px);
+		color: get-color(red8);
+	}
+
+	// .circle-content-cell--link
+	&--link {
+		cursor: default;
+
+		&,
+		svg {
+			@include p;
+		}
+
+		svg {
+			z-index: 11;
+		}
+
+		// .circle-content-cell--link:after
+		&:after {
+			@include size(140%);
+			@include p("abs", calculate-rem(-30px), calculate-rem(-30px));
+			content: "";
+			opacity: 0;
+			border-radius: 50%;
+			overflow: hidden;
+			z-index: 10;
+			transition: linear 0.16s opacity;
+		}
+
+		// .circle-content-cell--link:hover
+		// &:hover,
+		// &.circle-content-cell--active {
+		// 	color: get-color(white1);
+
+		// 	&:after {
+		// 		opacity: 1;
+		// 	}
+		// }
+	}
+}
+
+.circle-content-cell--link.circle-content-cell--blue {
+	&:after {
+		background: get-color(gradient-products);
+	}
+}
+
+.circle-content-cell--link.circle-content-cell--green {
+	&:after {
+		background: get-color(gradient-solutions);
+	}
+}

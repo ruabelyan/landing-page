@@ -1,0 +1,84 @@
+// .e404-wide
+.e404-wide {
+	@include size(100vw, 100vh);
+	display: block;
+	background: url("../../img/e404-bg.png");
+
+	// .e404-wide__404-bg
+	&__404-bg {
+		@include size(100vw, 100vh);
+		display: block;
+		background: url("../../img/404.png") no-repeat right top;
+		background-size: 50% auto;
+	}
+}
+
+// .e404-info
+.e404-info {
+	text-align: center;
+	@include no-shift;
+
+	// .e404-info-position
+	&-position {
+		@include pbl(calculate-rem(92px), 50%);
+		transform: translate(-50%, 0);
+	}
+
+	// .e404-info__title
+	&__title {
+		@include museo(500);
+		font-size: calculate-rem(46px);
+		text-align: center;
+		color: get-color(white1);
+	}
+
+	// .e404-info__descr
+	&__descr {
+		@include museo(500);
+
+		font-size: calculate-rem(16px);
+		line-height: 140%;
+		text-align: center;
+		color: get-color(white1);
+		padding-top: calculate-rem(32px);
+	}
+
+	// .default-btn
+	.default-btn {
+		margin-top: calculate-rem(77px);
+		background: transparent;
+
+		// .default-btn:before
+		// .default-btn:after
+		&:before,
+		&:after {
+			background: transparent;
+		}
+	}
+
+	// .e404-info-cell
+	&-cell {
+		display: block;
+		max-width: calculate-rem(384px);
+		min-width: calculate-rem(375px);
+	}
+}
+
+// .e404-wide
+.e404-wide {
+
+	// .e404-wide .default-btn
+	.default-btn {
+
+		// .e404-wide .default-btn__label
+		&__label {
+			top: 0;
+		}
+
+		// .e404-wide .default-btn:before
+		&--yellow:before {
+			left: calculate-rem(8px) !important;
+			top: calculate-rem(10px) !important;
+		}
+	}
+}

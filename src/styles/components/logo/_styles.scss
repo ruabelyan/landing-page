@@ -1,0 +1,57 @@
+// .logo
+.logo {
+	@include p;
+	@include size(calculate-rem(57px));
+	display: inline-block;
+	transition: linear all 0.16s;
+
+	// .logo::after
+	&::after {
+		@include p("abs", calculate-rem(20px), calculate-rem(-3px));
+		@include size(calculate-rem(14.35px), calculate-rem(3.38px));
+
+		content: "";
+		z-index: 1;
+		display: block;
+	}
+
+	// .logo svg
+	svg {
+		@include p;
+
+		z-index: 10;
+		width: calculate-rem(32.7px);
+	}
+
+	// .logo--blue
+	&--blue {
+		// .logo--blue:after
+		&::after {
+			background: get-color(red1);
+		}
+	}
+
+	// .logo--green
+	&--aqua {
+		// .logo--green:after
+		&::after {
+			background: get-color(blue4);
+		}
+	}
+
+	// .logo--green
+	&--green {
+		// .logo--green:after
+		&::after {
+			background: get-color(green1);
+		}
+	}
+
+	// .logo--yellow
+	&--yellow {
+		// .logo--yellow:after
+		&::after {
+			background: get-color(yellow1);
+		}
+	}
+}

@@ -1,0 +1,42 @@
+// .default-btn
+.default-btn {
+	@include flex(center, center);
+	@include museo(400);
+	@include p;
+	border-radius: 4px;
+	color: get-color(white1);
+	min-width: calculate-rem(290px);
+	height: calculate-rem(53px);
+	width: fit-content;
+	width: -moz-fit-content;
+	font-size: calculate-rem(24px);
+
+	&:active:before {
+		opacity: 1;
+	}
+
+	&:hover:after {
+		opacity: 1;
+	}
+
+	// .default-btn__label
+	&__label {
+		@include p;
+		display: block;
+		z-index: 10;
+	}
+
+	// .default-btn--yellow
+	&--yellow {
+		opacity: 1;
+	}
+
+	// .default-btn--disabled
+	&--disabled {
+		opacity: 0.6;
+	}
+
+	@include media(get-media(m600)) {
+		width: 100%;
+	}
+}

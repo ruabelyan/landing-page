@@ -1,0 +1,222 @@
+@include media(get-media(m866)) {
+    // .iframe
+    .iframe {
+        // .iframe--body
+        &--body {
+            padding-left: 8rem;
+        }
+    }
+    // .soc-links
+    .soc-links {
+        margin-left: 0;
+    }
+    // .default-btn
+    .default-btn {
+        // .default-btn__label
+        &__label {
+            text-decoration: none;
+            // top: calculate-rem(131px);
+        }
+    }
+    // .solutions-semiircle
+    .solutions-semiircle {
+        // .solutions-semiircle--3
+        &--3 {
+            // display: none;
+        }
+    }
+    // .animate-symbol
+    .animate-symbol {
+        // .animate-symbol--2
+        &--2 {
+            @include size(calculate-rem(57px), calculate-rem(19.54px));
+            right: 0;
+            top: calculate-rem(326px);
+        }
+        // .animate-symbol--4
+        &--4 {
+            left: 1px;
+            top: calculate-rem(378px);
+            width: calculate-rem(61px);
+        }
+    }
+    // .page-wrapper
+    .page-wrapper {
+        // .page-wrapper--home
+        &--home {
+            // .page-wrapper--home .animate-symbol
+            .animate-symbol {
+                // .page-wrapper--home .animate-symbol--1
+                // .page-wrapper--home .animate-symbol--3
+                // .page-wrapper--home .animate-symbol--5
+                // .page-wrapper--home .animate-symbol--7
+                // &--1,
+                // &--3,
+                &--5,
+                &--7 {
+                    display: none;
+                }
+                // .page-wrapper--home .animate-symbol--6
+                &--6 {
+                    left: calculate-rem(40px);
+                    top: calculate-rem(1338px);
+                    width: calculate-rem(10px);
+                    opacity: 1;
+                }
+            }
+        }
+        // .page-wrapper--solution
+        &--solution {
+            // .page-wrapper--solution .animate-symbol
+            .animate-symbol {
+                // .page-wrapper--solution .animate-symbol--6
+                &--6 {
+                    display: none;
+                }
+            }
+        }
+        // .page-wrapper--contacts
+        &--contacts {
+            // .page-wrapper--contacts .contact-us-semicircle
+            .contact-us-semicircle {
+                // .page-wrapper--contacts .contact-us-semicircle--2
+                &--2 {
+                    display: none;
+                }
+            }
+        }
+    }
+    // .select
+    .select {
+        // .select--phone-field-width
+        &--phone-field-width {
+            padding-right: calculate-rem(10px);
+            width: calculate-rem(136px);
+        }
+    }
+    // .flex-cell
+    .flex-cell {
+        gap: unset;
+    }
+    // .footer
+    .footer {
+        // padding-top: calculate-rem(258px);
+        text-decoration: none;
+    }
+    // .contact-form-section
+    .contact-form-section {
+        padding-top: calculate-rem(9px);
+    }
+    // .section-title-wrapper
+    .section-title-wrapper {
+        margin-top: calculate-rem(100px);
+    }
+    // .section-title
+    .section-title {
+        padding: calculate-rem(5px) calculate-rem(53px) calculate-rem(1px);
+        font-size: calculate-rem(24px);
+    }
+    // .section-descr
+    .section-descr {
+        @include x-center;
+        @include padding-x(calculate-rem(9px), calculate-rem(10px));
+        margin-top: calculate-rem(24px) !important;
+        max-width: calculate-rem(1075px);
+        font-size: calculate-rem(13px);
+        line-height: 153%;
+        text-align: center;
+        color: get-color(dark2);
+    }
+    // .contact-row
+    .contact-row {
+        display: block;
+        // .contact-row .contact-cell
+        .contact-cell {
+            margin-top: calculate-rem(35px);
+            // .contact-row .contact-cell--captcha
+            // .contact-row .contact-cell--btn
+            &--captcha,
+            &--btn {
+                @include flex(center);
+            }
+        }
+    }
+    // .page-wrapper
+    // .fix-layout
+    .page-wrapper,
+    .fix-layout {
+        max-width: 100%;
+    }
+    // .fix-layout
+    .fix-layout {
+        // .fix-layout__inner
+        &__inner {
+            @include padding-x(calculate-rem(16px));
+        }
+    }
+    // .main-header
+    .main-header {
+        // .main-header--green
+        // .main-header--blue
+        // .main-header--yellow
+        &--green,
+        &--blue,
+        &--yellow {
+            background-position: right 0;
+            background-size: 681px;
+        }
+        // // .main-header .main-title
+        // .main-title {
+        // 	margin-top: calculate-rem(60px);
+        // 	max-width: calculate-rem(130px);
+        // 	font-size: calculate-rem(18px);
+        // 	line-height: calculate-rem(22px);
+        // }
+        // // .main-header .main-section-description
+        // .main-section-description {
+        // 	margin-top: calculate-rem(29px);
+        // 	max-width: 260px;
+        // 	font-size: calculate-rem(13px);
+        // 	line-height: calculate-rem(21px);
+        // }
+        // .main-header .default-btn
+        .default-btn {
+            margin-top: calculate-rem(16px);
+            // .main-header .default-btn:hover
+            &:hover {
+                // .main-header .default-btn:hover::before
+                &::before {
+                    text-decoration: none;
+                    // left: calculate-rem(8px);
+                    // top: calculate-rem(10px);
+                }
+            }
+            // .default-btn__solid-fill
+            &__solid-fill {
+                padding: calculate-rem(7px) calculate-rem(15px) calculate-rem(3px) calculate-rem(14px);
+                font-size: calculate-rem(14px);
+            }
+        }
+    }
+    // .default-btn
+    .default-btn {
+        // .default-btn::before
+        &::before {
+            text-decoration: none;
+            // left: calculate-rem(5px);
+            // top: calculate-rem(5px);
+        }
+    }
+    .connection-line,
+    .animate-symbol--7 {
+        display: none;
+    }
+    // .logo
+    .logo {
+        margin-top: calculate-rem(20px);
+    }
+    // .empty-top-space
+    .empty-top-space {
+        padding-top: calculate-rem(64px);
+    }
+}

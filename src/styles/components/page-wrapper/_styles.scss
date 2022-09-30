@@ -1,0 +1,280 @@
+// .page-wrapper
+// .wrapper
+.page-wrapper,
+.wrapper {
+	@include x-center;
+	@include p;
+	min-width: css-var($global, "min-width");
+}
+
+// .page-wrapper
+.page-wrapper {
+	overflow-x: hidden;
+
+	&--products,
+	&--aqua {
+		display: block;
+
+		.default-btn {
+			@include p;
+
+			&:after {
+				content: "";
+				@include size(100%);
+				@include p("abs");
+			}
+		}
+	}
+
+	// .page-wrapper--yellow
+	// .page-wrapper--aqua
+	// .page-wrapper--solution
+	// .page-wrapper--home
+	// .page-wrapper--products
+	&--yellow,
+	&--aqua,
+	&--solution,
+	&--home,
+	&--products {
+
+		// .page-wrapper--yellow .soc-icon
+		// .page-wrapper--aqua .soc-icon
+		// .page-wrapper--solution .soc-icon
+		// .page-wrapper--home .soc-icon
+		// .page-wrapper--products .soc-icon
+
+		// .page-wrapper--yellow .default-btn
+		// .page-wrapper--aqua .default-btn
+		// .page-wrapper--solution .default-btn
+		// .page-wrapper--home .default-btn
+		// .page-wrapper--products .default-btn
+
+		.soc-icon,
+		.default-btn {
+			text-decoration: none;
+			// transition: all linear 0.25s !important;
+			// background-size: 100% auto !important;
+
+			// .page-wrapper--yellow .soc-icon:hover
+			// .page-wrapper--aqua .soc-icon:hover
+			// .page-wrapper--solution .soc-icon:hover
+			// .page-wrapper--home .soc-icon:hover
+			// .page-wrapper--products .soc-icon:hover
+
+			// .page-wrapper--yellow .default-btn:hover
+			// .page-wrapper--aqua .default-btn:hover
+			// .page-wrapper--solution .default-btn:hover
+			// .page-wrapper--home .default-btn:hover
+			// .page-wrapper--products .default-btn:hover
+
+			&:hover {
+				text-decoration: none;
+				// background-size: 350% auto !important;
+				// background-position: 0 0 !important;
+			}
+		}
+	}
+
+	// .page-wrapper--home .soc-icon
+	.soc-icon {
+
+		&,
+		path,
+		svg {
+			fill: get-color(white1);
+		}
+	}
+
+	// .page-wrapper--home
+	&--home {
+
+		// .page-wrapper--home .soc-icon
+		// .page-wrapper--home .default-btn
+		.soc-icon,
+		.default-btn {
+			background: get-color(gradient-home)
+		}
+
+		// .default-btn
+		.default-btn {
+
+			// .default-btn:after
+			&:after {
+				@include after-before-button-state;
+
+				border-radius: 4px;
+				z-index: 1;
+				background: get-color(gradient-home--hover);
+			}
+
+			// .default-btn:after
+			&:before {
+				@include after-before-button-state;
+
+				border-radius: 4px;
+				z-index: 2;
+				background: get-color(gradient-home--press);
+			}
+		}
+
+		// .logo
+		.logo {
+
+			// .logo--static
+			&--static {
+
+				// .logo--static:after
+				&::after {
+					background: get-color(red1);
+				}
+			}
+		}
+	}
+
+	// .page-wrapper--products
+	&--products {
+
+		// .page-wrapper--products .soc-icon
+		// .page-wrapper--products .default-btn
+		.soc-icon,
+		.default-btn {
+			background: get-color(gradient-products);
+		}
+
+		// .logo
+		.logo {
+
+			// .logo--static
+			&--static {
+
+				// .logo--static:after
+				&::after {
+					background: get-color(blue5);
+				}
+			}
+		}
+
+		// .page-wrapper--products .default-btn
+		.default-btn {
+
+			// .page-wrapper--products .default-btn:after
+			&:after {
+				@include after-before-button-state;
+
+				border-radius: 4px;
+				z-index: 1;
+				background: get-color(gradient-products--hover);
+			}
+
+			// .page-wrapper--products .default-btn:after
+			&:before {
+				@include after-before-button-state;
+
+				border-radius: 4px;
+				z-index: 2;
+				background: get-color(gradient-products--press);
+			}
+		}
+	}
+
+	// .page-wrapper--solution
+	&--solution {
+
+		// .page-wrapper--solution .soc-icon
+		// .page-wrapper--solution .default-btn
+		.soc-icon,
+		.default-btn {
+			background: get-color(gradient-solutions);
+		}
+
+		// .page-wrapper--solution .default-btn
+		.default-btn {
+
+			// .page-wrapper--solution .default-btn:after
+			&:after {
+				@include after-before-button-state;
+
+				border-radius: 4px;
+				z-index: 1;
+				background: get-color(gradient-solutions--hover);
+			}
+
+			// .page-wrapper--solution .default-btn:after
+			&:before {
+				@include after-before-button-state;
+
+				border-radius: 4px;
+				z-index: 2;
+				background: get-color(gradient-solutions--press);
+			}
+		}
+
+		// .page-wrapper--solution .main-header
+		.main-header {
+
+			// .page-wrapper--solution .main-header .default-btn
+			.default-btn {
+				margin-top: calculate-rem(61px);
+			}
+		}
+
+		// .logo
+		.logo {
+
+			// .logo--static
+			&--static {
+
+				// .logo--static:after
+				&::after {
+					background: get-color(green3);
+				}
+			}
+		}
+	}
+
+	// .page-wrapper--contacts
+	&--contacts {
+
+		// .page-wrapper--contacts .soc-icon
+		// .page-wrapper--contacts .default-btn
+		.soc-icon,
+		.default-btn {
+			background: get-color(gradient-contacts)
+		}
+
+		// .page-wrapper--contacts .default-btn
+		.default-btn {
+
+			// .page-wrapper--contacts .default-btn:after
+			&:after {
+				@include after-before-button-state;
+
+				border-radius: 4px;
+				z-index: 1;
+				background: get-color(gradient-contacts--hover);
+			}
+
+			// .page-wrapper--contacts .default-btn:after
+			&:before {
+				@include after-before-button-state;
+
+				border-radius: 4px;
+				z-index: 2;
+				background: get-color(gradient-contacts--press);
+			}
+		}
+
+		// .logo
+		.logo {
+
+			// .logo--static
+			&--static {
+
+				// .logo--static:after
+				&::after {
+					background: get-color(yellow1);
+				}
+			}
+		}
+	}
+}

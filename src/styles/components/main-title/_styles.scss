@@ -1,0 +1,10 @@
+// .main-title
+.main-title {
+	@include p;
+	@include museo(700);
+
+	display: block;
+	font-size: calculate-rem(60px);
+	line-height: calculate-rem(73px);
+	color: get-color(dark2);
+}

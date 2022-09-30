@@ -1,0 +1,184 @@
+// ---- SOLUTIONS RGS API DOCS STYLES
+// .api-doc
+.api-doc {
+
+	// .api-doc__h1
+	&__h1 {
+		@include museo(700);
+		font-size: calculate-rem(25px);
+		margin: calculate-rem(20px);
+		margin-left: 0;
+	}
+
+	// .api-doc__content-place
+	&__content-place {
+		margin-left: calculate-rem(20px);
+		line-height: calculate-rem(30px);
+	}
+
+	// .api-doc__p1
+	&__p1 {
+		@include museo(700);
+		font-size: calculate-rem(20px);
+		margin-bottom: calculate-rem(10px);
+	}
+
+
+
+
+	// .api-doc__p2
+	&__p2 {
+		font-size: calculate-rem(18px);
+	}
+
+	// .api-doc__p3
+	&__p3 {
+		margin-top: calculate-rem(10px);
+		font-size: calculate-rem(18px);
+	}
+
+	// .api-doc__list1
+	&__list1 {
+
+		// .api-doc__list1 li
+		li {
+			list-style: circle;
+			font-size: calculate-rem(18px);
+		}
+	}
+
+	// .api-doc__list2
+	&__list2 {
+
+		// .api-doc__list2 li
+		li {
+			list-style: circle;
+			margin-top: calculate-rem(10px);
+			font-size: calculate-rem(18px);
+		}
+	}
+
+	// .api-doc__h2
+	&__h2 {
+		@include museo(700);
+		@include margin-y(calculate-rem(30px), calculate-rem(10px));
+		font-size: calculate-rem(22px);
+	}
+
+	// .api-doc__screen1
+	&__screen1 {
+		margin-top: calculate-rem(20px);
+		@include size(100%, auto);
+	}
+
+	// .api-doc__bracket
+	&__bracket {
+		min-width: calculate-rem(300px);
+		min-height: calculate-rem(100px);
+		background: get-color(dark1);
+		font-size: calculate-rem(18px);
+		color: get-color(white1);
+	}
+
+	// .api-doc__ml20
+	&__ml20 {
+		margin-left: calculate-rem(20px);
+	}
+
+	// .api-doc__green3
+	&__green3 {
+		color: get-color(green3);
+	}
+
+	// .api-doc__ul1
+	&__ul1 {
+
+		// .api-doc__ul1 li
+		li {
+			margin-top: calculate-rem(10px);
+			list-style: circle;
+			font-size: calculate-rem(18px);
+		}
+	}
+
+	// .api-doc__bold
+	&__bold {
+		@include museo(700);
+	}
+
+	// .api-doc__p1
+	&__p1 {
+		margin-top: calculate-rem(20px);
+		font-size: calculate-rem(18px);
+	}
+
+	// .api-doc__group1
+	&__group1 {
+		min-width: calculate-rem(300px);
+		font-size: calculate-rem(18px);
+		min-height: calculate-rem(100px);
+		background: get-color(dark1);
+		color: get-color(white1);
+	}
+
+	// .api-doc__h2
+	&__h2 {
+		@include museo(700);
+		font-size: calculate-rem(25px);
+		margin: calculate-rem(10px);
+		margin-top: calculate-rem(30px);
+	}
+
+	// .api-doc__ul2
+	&__ul2 {
+		margin-top: calculate-rem(20px);
+		font-size: calculate-rem(18px);
+
+		// .api-doc__ul2 li
+		li {
+			margin-top: calculate-rem(10px);
+			list-style: circle
+		}
+	}
+
+	// .api-doc__tac
+	&__tac {
+		text-align: center;
+	}
+
+	// .api-doc__img1
+	&__img1 {
+		@include size(100%, auto);
+
+		margin-top: calculate-rem(20px);
+		max-width: calculate-rem(1000px);
+	}
+
+	// .api-doc__h2-error
+	&__h2-error {
+		@include museo(700);
+		font-size: calculate-rem(25px);
+		margin: calculate-rem(10px);
+		margin-top: calculate-rem(30px);
+	}
+
+	// .api-doc__iframe
+	&__iframe {
+		@include size-mh(100%, 114vh);
+	}
+}
+
+// .swagger-table
+.swagger-table {
+
+	// .swagger-table__th
+	&__th {
+		display: block;
+	}
+}
+
+
+
+
+
+

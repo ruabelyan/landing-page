@@ -1,0 +1,71 @@
+ $colors: (
+ 	// start-green
+ 	green1: #4bdf44,
+ 	green2: #93c47d,
+ 	green3: #02b82f,
+
+ 	// start-yellow
+ 	yellow1: #efbc18,
+
+ 	// start-blue
+ 	blue1: #0da4f5,
+ 	blue2: #036fd2,
+ 	blue3: #4475f2,
+ 	blue4: #3d418f,
+ 	blue5: #2d2a69,
+
+ 	// start-red
+ 	red1: #af1a72,
+ 	red2: #ae36e2,
+ 	red3: #f00,
+ 	red4: #e00,
+ 	red5: #9012fe,
+ 	red6: #2d2431,
+ 	red7: #ab0077,
+ 	red8: #9e6dc6,
+
+ 	// start-white
+ 	white1: #fff,
+ 	white2: #fdf5f7,
+ 	white3: #f9effd,
+ 	white4: #ccc,
+ 	white5: #eaeaea,
+ 	white6: #b2b8bf,
+ 	white7: #e3ebfd,
+ 	white8: #959eaf,
+ 	white9: #bababa,
+
+ 	// start-dark
+ 	dark1: #000,
+ 	dark2: #0d121c,
+ 	dark3: #0e151c,
+ 	dark4: #3b4151,
+ 	dark5: #071212,
+
+ 	// start-aqua
+ 	aqua1: #1ed9d3,
+
+ 	// gradients home
+ 	gradient-home: linear-gradient(270deg, #AB0077 5.52%, rgba(10, 25, 160, 0.99) 166.96%),
+ 	gradient-home--hover: linear-gradient(270deg, #A50173 5.52%, rgba(8, 22, 151, 0.99) 166.96%),
+ 	gradient-home--press: linear-gradient(270deg, #86035E 5.52%, rgba(8, 22, 151, 0.99) 166.96%),
+
+ 	// gradients products
+ 	gradient-products: linear-gradient(270deg, #3d418f 35.64%, #1ed9d3 117.2%),
+ 	gradient-products--hover: linear-gradient(270deg, #292D7D 35.64%, #0CC5BF 117.2%),
+ 	gradient-products--press: linear-gradient(270deg, #1D216F 35.64%, #08A9A4 117.2%),
+
+ 	// gradients solutions
+ 	gradient-solutions: linear-gradient(270deg, #02b82f 5.52%, rgba(122, 11, 248, 0.99) 130%),
+ 	gradient-solutions--hover: linear-gradient(270deg, #03A22A 5.52%, rgba(114, 12, 231, 0.99) 130%),
+ 	gradient-solutions--press: linear-gradient(270deg, #038724 5.52%, rgba(98, 6, 203, 0.99) 130%),
+
+ 	// gradients contacts
+ 	gradient-contacts: linear-gradient(270deg, #efbc18 5.52%, rgba(122, 11, 248, 0.99) 130%),
+ 	gradient-contacts--hover: linear-gradient(269.89deg, #FFE600 18.81%, #BD00FF 99.9%),
+ 	gradient-contacts--press: linear-gradient(269.89deg, #DFCA0F 0.09%, #8F0DDE 99.9%),
+ );
+
+ @function get-color($property) {
+ 	@return map-get($colors, $property);
+ }

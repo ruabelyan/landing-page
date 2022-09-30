@@ -1,0 +1,13 @@
+// .default-textarea
+.default-textarea {
+	@include size(100%, calculate-rem(140px));
+	border: 1px solid rgba(get-color(white6), 0.5);
+	padding: calculate-rem(15px);
+	background: rgba(get-color(yellow1), 0.05);
+	resize: none;
+}
+
+// .background-red
+.background-red {
+	background: get-color(white2) !important;
+}

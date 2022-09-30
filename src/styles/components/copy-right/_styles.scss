@@ -1,0 +1,10 @@
+// .copy-right
+.copy-right {
+	@include flex(center);
+	@include museo(300);
+
+	font-size: calculate-rem(14px);
+	line-height: calculate-rem(17px);
+	text-align: center;
+	color: get-color(dark2);
+}

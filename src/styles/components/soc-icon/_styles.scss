@@ -1,0 +1,49 @@
+// .soc-links
+.soc-links {
+	@include flex(center, null);
+	gap: calculate-rem(9px);
+
+	&--footer {
+
+		@include media(get-media(m650)) {
+			width: 180px;
+			flex-wrap: wrap;
+			text-align: center;
+			margin: 28px auto !important;
+		}
+	}
+}
+
+// .soc-icon
+.soc-icon {
+	@include size(calculate-rem(40px));
+	@include p;
+	border-radius: 50%;
+	color: get-color(dark1);
+	transform: scale(1);
+	background-color: get-color(white7);
+	transition: all 0.16s linear !important;
+
+
+	&:hover {
+		transform: scale(1.15);
+	}
+
+	svg {
+		transition: all 0.16s linear;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	// .soc-icon
+	// .soc-icon svg
+	// .soc-icon path
+	&,
+	svg,
+	path {
+		transition: background linear 0.16s, fill linear 0.16s;
+		will-change: background, fill;
+	}
+}

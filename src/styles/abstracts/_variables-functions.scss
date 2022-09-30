@@ -1,0 +1,174 @@
+@use "sass:map";
+@use "sass:string";
+@use "sass:meta";
+@use "sass:list";
+@use "sass:math";
+@use "sass:selector";
+@use "sass:color";
+
+@import "functions/to-number";
+@import "functions/choose-map";
+@import "functions/strip-unit";
+@import "functions/str-replace";
+@import "functions/svg-to-data-url";
+@import "functions/map-deep-get";
+@import "functions/crem";
+@import "functions/px-vw";
+@import "functions/to-rgb";
+@import "functions/map-collect";
+@import "functions/rem-vw";
+
+/*
+@import "functions/responsive";
+@import "functions/image-rendering";
+@import "functions/list-css-nth";
+@import "functions/list-remove-nth";
+@import "functions/object-fit-images";
+@import "functions/omit";
+@import "functions/str-replace";
+@import "functions/str-split";
+@import "functions/map-sort-by-values";
+*/
+
+@import "functions/linear-interpolation";
+@import "functions/map-sort";
+@import "functions/list-sort";
+@import "functions/list-remove";
+@import "functions/poly-fluid-sizing";
+
+@import "colors";
+@import "media";
+
+$html-font-size: 62.5%;
+$base-line: math.div(strip-unit(62.5%) * 16, 100) * 1px;
+$vw-viewport: "";
+
+// get-prop
+@function get-prop($map, $prop) {
+	@return map-get(map-get($map, nth(nth($map, 1), 1)), $prop);
+}
+
+// EXAMPLE USE .any-width {min-width: css-var($global, "min-width")}
+// css-var
+@function css-var($map, $prop) {
+	@return var(unquote("--" + nth(nth($map, 1), 1) + "--" + $prop));
+}
+
+// get-prop-rem
+@function get-prop-rem($map, $prop) {
+	$value: to-number(get-prop($map, $prop));
+
+	@if type-of($value)=="number" and unit($value)=="px" {
+		@return calculate-rem(to-number(get-prop($map, $prop)));
+	}
+
+	@return get-prop($map, $prop);
+}
+
+// ===============================================
+// font-family
+// ===============================================
+/* stylelint-disable */
+/* prettier-ignore */
+$font-family: (
+	"font-family": ("museo-sans": ("'museo-sans'", sans-serif),
+	),
+);
+/* stylelint-enable */
+
+// ===============================================
+// brand-color
+// ===============================================
+$brand-color: (
+	"brand-color": ("1-1": #000,
+		"1-2": #071212,
+		"2-1": #fff,
+		"3-1": #f7f7f7,
+	),
+);
+
+// ===============================================
+// global
+// ===============================================
+$global: (
+	"global": ("selection-text-color": get-prop($brand-color, "2-1"),
+		"selection-bg-color": get-prop($brand-color, "1-1"),
+		"html-font-size": $html-font-size,
+		// "min-width": 320px,
+		"min-width": 320px,
+		"max-width": 1920px,
+		"rem-baseline": $base-line,
+	),
+);
+
+// ===============================================
+// breakpoint
+// ===============================================
+$breakpoint: (
+	"breakpoint": ("md": 375px,
+		"lg": 768px,
+		"xl": 1152px,
+	),
+);
+
+// ===============================================
+// content-width
+// ===============================================
+$content-width: (
+	"content-width": ("md": 375px,
+		"lg": 768px,
+		"xl": 1152px,
+	),
+);
+
+// ===============================================
+// body
+// ===============================================
+$body: (
+	"body": ("font-family": get-prop($font-family, "museo-sans"),
+	),
+);
+
+// sizes
+$xl-bp: get-prop($breakpoint, "xl") - 1px;
+$lg-bp: get-prop($breakpoint, "lg") - 1px;
+$md-bp: get-prop($breakpoint, "md") - 1px;
+$xl: get-prop-rem($content-width, "xl");
+$lg: get-prop-rem($content-width, "lg");
+$md: get-prop-rem($content-width, "md");
+
+// ===============================================
+:root {
+	/* stylelint-disable */
+	/* prettier-ignore */
+	$result-maps: map-collect($global,
+		$font-family,
+		$brand-color,
+		$body,
+	);
+	/* stylelint-enable */
+
+	/* stylelint-disable */
+	/* prettier-ignore */
+	@each $key1,
+	$value1 in $result-maps {
+
+		@each $key2,
+		$value2 in $value1 {
+			@if type-of($value2)=="number" and unit($value2)=="px" and $key1  !="breakpoint" {
+				@if str-slice($key2, 0, 2)=="__" {
+					--#{$key1}#{$key2}: #{calculate-rem($value2)};
+				}
+
+				@else {
+					--#{$key1}--#{$key2}: #{calculate-rem($value2)};
+				}
+			}
+
+			@else {
+				--#{$key1}--#{$key2}: #{$value2};
+			}
+		}
+	}
+	/* stylelint-enable */
+}

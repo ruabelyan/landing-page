@@ -1,0 +1,21 @@
+ $media: (
+ 	m1615: 1615px,
+ 	m1500: 1500px,
+ 	m1440: 1440px,
+ 	m1366: 1366px,
+ 	m1300: 1300px,
+ 	m1290: 1290px,
+ 	m1240: 1240px,
+ 	m1030: 1030px,
+ 	m1028: 1028px,
+ 	m1000: 1000px,
+ 	m866: 866px,
+ 	m810: 810px,
+ 	m650: 650px,
+ 	m600: 600px,
+ 	m574: 574px,
+ );
+
+ @function get-media($property) {
+ 	@return map-get($media, $property);
+ }

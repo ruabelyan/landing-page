@@ -1,0 +1,38 @@
+// .fix-layout
+.fix-layout {
+    @include no-shift;
+    @include x-center;
+    z-index: 100;
+    max-width: 1440px;
+    // .fix-layout__inner
+    &__inner {
+        @include no-shift;
+        @include x-center;
+        @include padding-x(calculate-rem(174px));
+    }
+    // .fix-layout-width
+    &-width {
+        @include x-center;
+        @include padding-x(calculate-rem(30px));
+        max-width: 1152px;
+    }
+    // .fix-layout-contacts
+    &-contacts {
+        @include padding-x(calculate-rem(20px));
+        @include x-center;
+        display: block;
+        min-height: calculate-rem(604px);
+        max-width: 796px;
+    }
+    // .fix-layout--wide
+    &--wide {
+        display: block;
+        max-width: 100%;
+    }
+}
+
+.iframe--body {
+    @media screen and (min-width: 866px) {
+        padding-left: 8rem;
+    }
+}

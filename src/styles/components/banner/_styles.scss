@@ -1,0 +1,232 @@
+// .main-header
+.main-header {
+	@include no-shift;
+	@include p;
+	z-index: 10000;
+
+	// .main-header .fix-layout
+	.fix-layout {
+		margin-bottom: calculate-rem(25px);
+		min-height: calculate-rem(897px);
+	}
+
+	// .main-header .main-title
+	h1.main-title {
+		margin-top: calculate-rem(125px);
+		max-width: calculate-rem(540px);
+		transition: linear 0.16s margin-top, linear 0.16s font-size, linear 0.16s line-height;
+		will-change: margin-top, font-size, line-height;
+
+		@include media(get-media(m810)) {
+			@include x-center;
+			margin-top: calculate-rem(350px);
+			font-size: calculate-rem(24px);
+			line-height: calculate-rem(26px) !important;
+			text-align: center;
+		}
+	}
+
+	// .main-header .default-btn
+	.default-btn {
+		margin-top: calculate-rem(101px);
+		@include media(get-media(m810)) {
+			@include x-center;
+		}
+		// .main-header .default-btn--blue
+		&--blue {
+			margin-top: calculate-rem(131px);
+		}
+	}
+
+	// .main-header .main-section-description
+	.main-section-description {
+		margin-top: calculate-rem(66px);
+		max-width: calculate-rem(548px);
+		transition: linear 0.16s all;
+
+		@include media(get-media(m810)) {
+			@include museo(500);
+			@include x-center;
+			font-size: calculate-rem(15px);
+			line-height: calculate-rem(20px);
+			text-align: center;
+			max-width: calculate-rem(277px);
+			margin-top: calculate-rem(23px);
+			margin-bottom: calculate-rem(23px);
+		}
+
+	}
+
+	// .main-header .logo
+	.logo {
+		@include margin-tl(calculate-rem(19px), calculate-rem(18.7px));
+		@include p(fix, unset);
+		z-index: 10;
+	}
+
+	// .main-header--yellow
+	// .main-header--green
+	// .main-header--blue
+	&--home,
+	&--yellow,
+	&--green,
+	&--blue {
+		background-size: cover;
+	}
+
+	&--home {
+		.mobile-menu {
+			&__a {
+				&--current {
+					color: get-color(red7);
+				}
+			}
+		}
+	}
+
+	&--aqua {
+		.mobile-menu {
+			&__a {
+				&--current {
+					color: get-color(aqua1);
+				}
+			}
+		}
+	}
+
+	&--yellow {
+		.mobile-menu {
+			&__a {
+				&--current {
+					color: get-color(yellow1);
+				}
+			}
+		}
+	}
+
+	&--blue {
+		.mobile-menu {
+			&__a {
+				&--current {
+					color: get-color(red7);
+				}
+			}
+		}
+	}
+
+	// .main-header--aqua
+	// .main-header--yellow
+	// .main-header--blue
+	// .main-header--yellow
+	&--home,
+	&--aqua,
+	&--yellow,
+	&--blue,
+	&--yellow {
+
+		// .main-header--blue .mobile-menu
+		// .main-header--blue .mobile-menu
+		// .main-header--yellow .mobile-menu
+		.mobile-menu {
+
+			// .main-header .mobile-menu__a
+			&__a {
+
+				// .main-header .mobile-menu__a--current
+				&--current {
+					text-decoration: underline;
+
+					// .main-header .mobile-menu__a--current:hover
+					&:hover {
+						background: none;
+						cursor: default;
+					}
+				}
+			}
+		}
+	}
+
+	// .main-header .main-header--blue
+	&--home,
+	&--blue {
+
+		.main-header--home .mobile-menu .mobile-menu,
+		.main-header--blue .mobile-menu .mobile-menu {
+
+			// .main-header--blue .mobile-menu__a
+			&__a {
+
+				// .main-header--blue .mobile-menu__a--current
+				&--current {
+					color: get-color(blue1);
+
+				}
+			}
+		}
+	}
+
+	// main-header--green
+	&--green {
+
+		// main-header--green .mobile-menu
+		.mobile-menu {
+
+			// .main-header--green .mobile-menu__a
+			&__a {
+
+				// .main-header--green .mobile-menu__a--current
+				&--current {
+					color: get-color(green1);
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+
+	// .main-header--yellow
+	&--yellow {
+
+		// .main-header--yellow .mobile-menu
+		.mobile-menu {
+
+			// .mobile-menu__a--current
+			&__a {
+				&--current {
+					color: get-color(yellow1);
+				}
+			}
+		}
+	}
+
+
+	// main-header--green
+	&--aqua {
+
+		// main-header--green .mobile-menu
+		.mobile-menu {
+
+			// .main-header--green .mobile-menu__a
+			&__a {
+
+				// .main-header--green .mobile-menu__a--current
+				&--current {
+					color: get-color(blue4);
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
+
+// .header-image
+.header-image {
+	@include ptr(calculate-rem(1px), calculate-rem(-17px));
+}
+
+// .triangle
+.triangle {
+	@include ptr(calculate-rem(-11px), calculate-rem(-44px));
+	z-index: 100;
+	width: 100%;
+	min-width: 854px;
+}

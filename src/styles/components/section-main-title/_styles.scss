@@ -1,0 +1,22 @@
+// .section-main-title
+.section-main-title {
+	@include museo(700);
+	@include p;
+	z-index: 20;
+	font-size: calculate-rem(40px);
+	line-height: calculate-rem(48px);
+	color: get-color(dark2);
+	display: block;
+	text-align: center;
+
+	// section-main-title--home-page
+	&--home-page {
+		padding-top: calculate-rem(5px);
+	}
+
+	@include media(get-media(m1000)) {
+		font-size: calculate-rem(23px);
+		padding-top: calculate-rem(6px);
+		line-height: calculate-rem(28px);
+	}
+}

@@ -1,0 +1,8 @@
+// .default-label
+.default-label {
+	@include museo(500);
+	@include p;
+	font-size: calculate-rem(14px);
+	line-height: calculate-rem(17px);
+	color: get-color(dark3);
+}

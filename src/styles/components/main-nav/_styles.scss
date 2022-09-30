@@ -1,0 +1,129 @@
+// .main-nav
+.main-nav {
+	position: absolute;
+	// top: max(64vh, calculate-rem(540px));
+	top: max(24vh, 41rem);
+	left: calculate-rem(52px);
+	z-index: 100;
+
+	// .main-nav .__ul
+	.__ul {
+		@include flex;
+		@include p(fix, unset);
+		z-index: 10;
+		transform: rotate(-90deg);
+		transform-origin: bottom left;
+	}
+
+	// .main-nav .__li
+	.__li {
+		padding: 0 calculate-rem(24px) 0 calculate-rem(20px);
+	}
+
+	// .main-nav .nav-link
+	a.nav-link {
+		@include p;
+		@include museo(500);
+		font-size: calculate-rem(18px);
+		line-height: calculate-rem(36px);
+		text-decoration: none;
+		color: rgba(get-color(dark2), 0.7);
+		transition: linear 0.16s color;
+
+		// .main-nav .nav-link:after
+		&::after {
+			@include size(100%, calculate-rem(2px));
+			@include pbl(calculate-rem(-11px), calculate-rem(2px));
+
+			content: "";
+			display: block;
+		}
+
+		&.active {
+			@include museo(500);
+		}
+	}
+
+	// .main-nav--blue
+	&--blue {
+
+		// .active,
+		// .main-nav--blue .nav-link:hover
+		a.active,
+		.nav-link:hover {
+			color: get-color(red7);
+		}
+
+		// .main-nav--blue .active
+		.active {
+
+			// .main-nav--blue .active::after
+			&::after {
+				background-color: get-color(red7);
+			}
+		}
+	}
+
+
+	// .main-nav--aqua
+	&--aqua {
+
+		// .active,
+		// .main-nav--yellow .active::after
+		a.active,
+		.nav-link:hover {
+			color: get-color(blue4);
+		}
+
+		// .main-nav--yellow .active
+		.active {
+
+			// .main-nav--yellow .active::after
+			&::after {
+				background-color: get-color(blue4);
+			}
+		}
+	}
+
+
+	// .main-nav--green
+	&--green {
+
+		// .active,
+		// .main-nav--green .nav-link:hover
+		a.active,
+		.nav-link:hover {
+			color: get-color(green1);
+		}
+
+		// .main-nav--green .active::after
+		.active::after {
+			background-color: get-color(green1);
+		}
+	}
+
+	// .main-nav--yellow
+	&--yellow {
+
+		// .active,
+		// .main-nav--yellow .active::after
+		a.active,
+		.nav-link:hover {
+			color: get-color(yellow1);
+		}
+
+		// .main-nav--yellow .active
+		.active {
+
+			// .main-nav--yellow .active::after
+			&::after {
+				background-color: get-color(yellow1);
+			}
+		}
+	}
+
+	// .main-nav--api-doc
+	&--api-doc {
+		top: calculate-rem(470px);
+	}
+}

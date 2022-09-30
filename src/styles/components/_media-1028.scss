@@ -1,0 +1,96 @@
+@include media(get-media(m1028)) {
+    // .for-open-drop-down-mobile-menu
+    .for-open-drop-down-mobile-menu {
+        display: block !important;
+    }
+    // .fix-layout
+    .fix-layout {
+        // .fix-layout__inner
+        &__inner {
+            @include padding-x(calculate-rem(49px));
+        }
+    }
+    // .main-nav
+    .main-nav {
+        display: none;
+    }
+    // .mobile-tech-circle-section
+    .mobile-tech-circle-section {
+        display: block;
+    }
+    // .tech-circle-section
+    .tech-circle-section {
+        display: none;
+    }
+    // .main-header
+    .main-header {
+        // .main-header .logo
+        .logo {
+            margin-left: calculate-rem(18px);
+            margin-top: calculate-rem(20px);
+            transform: scale(0.6);
+            transform-origin: top left;
+        }
+        // .main-header .fix-layout
+        .fix-layout {
+            padding-bottom: calculate-rem(40px);
+            min-height: auto;
+        }
+    }
+    // .page-wrapper
+    .page-wrapper {
+        // .page-wrapper--contacts
+        &--contacts {
+            // .page-wrapper--contacts .animate-symbol
+            .animate-symbol {
+                // .page-wrapper--contacts .animate-symbol--4
+                &--4 {
+                    left: 0;
+                    top: calculate-rem(430px);
+                    width: calculate-rem(66px);
+                }
+                // .page-wrapper--contacts .animate-symbol--4
+                &--2 {
+                    right: calculate-rem(-6px);
+                    top: calculate-rem(360px);
+                    @include size(calculate-rem(76px), calculate-rem(17.54px));
+                }
+            }
+        }
+    }
+    .api-documentation {
+        .animate-symbol--4 {
+            display: none;
+        }
+        .main-title {
+            &::after {
+                display: none;
+            }
+        }
+    }
+    header.main-header .logo,
+    .main-nav {
+        .__ul {
+            @include p;
+        }
+    }
+    // .fixed-block
+    .fixed-block {
+        @include p(fix, 0);
+        @include size(100%, calculate-rem(40px));
+        z-index: 10000;
+        box-shadow: -6px 2px 19px -1px rgb(34 60 80 / 15%);
+        background: rgba(get-color(white1), 0.7);
+        // .fixed-block .logo
+        .logo {
+            margin-top: calculate-rem(10px) !important;
+            margin-left: calculate-rem(10px);
+        }
+        // .white-txt
+        .white-txt {
+            position: relative;
+            top: calculate-rem(-12px);
+            color: get-color(dark1);
+        }
+    }
+}

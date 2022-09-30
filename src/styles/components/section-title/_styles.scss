@@ -1,0 +1,51 @@
+// .section-title-wrapper
+.section-title-wrapper {
+	@include flex(center);
+}
+
+// .section-title
+.section-title {
+	@include p;
+	@include museo(700);
+
+	display: inline-block;
+	padding: calculate-rem(10px) calculate-rem(53px) calculate-rem(9px);
+	font-size: calculate-rem(24px);
+	line-height: calculate-rem(22px);
+	color: get-color(dark2);
+
+	// .section-title:after,
+	// .section-title:before,
+	&::after,
+	&::before {
+		@include size(50%, 2px);
+
+		content: "";
+		position: absolute;
+		display: block;
+	}
+
+	// .section-title:before,
+	&::before {
+		left: 0;
+		top: 0;
+	}
+
+	// .section-title__blue
+	&__blue {
+
+		// .section-title__blue:after
+		&::before {
+			background: get-color(blue2);
+		}
+	}
+
+	// .section-title__green
+	&__green {
+
+		// section-title__green:after
+		&::before {
+			background: get-color(green1);
+		}
+	}
+}

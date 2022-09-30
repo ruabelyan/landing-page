@@ -1,0 +1,49 @@
+// .footer
+.footer {
+	@include no-shift;
+	@include size-mh(100%, calculate-rem(364px));
+	padding-top: calculate-rem(96px);
+
+	// .footer .copy-right
+	.copy-right {
+		@include margin-y(calculate-rem(34px));
+	}
+
+	// .footer .soc-links
+	.soc-links {
+		margin-top: calculate-rem(30px);
+	}
+
+	// .footer .description-2
+	.description-2 {
+		margin-top: calculate-rem(28px);
+		width: 527px;
+		font-size: calculate-rem(14px);
+		color: get-color(dark2);
+
+
+		@include media(get-media(m574)) {
+			width: 100%;
+		}
+	}
+
+	// .footer .logo
+	.logo {
+		@include x-center;
+
+		// .logo--static
+		&--static {
+			@include size(calculate-rem(57px));
+
+			svg {
+				@include size(100%);
+			}
+
+			// .logo--static:after
+			&::after {
+				top: calculate-rem(34.98px);
+				@include size(calculate-rem(25.9px), calculate-rem(6.1px));
+			}
+		}
+	}
+}

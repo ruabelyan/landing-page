@@ -1,0 +1,12 @@
+@include media(get-media(m1028)) {
+
+	// .main-nav
+	.main-nav {
+		display: none;
+
+		// .main-nav .__ul
+		.__ul {
+			@include p;
+		}
+	}
+}

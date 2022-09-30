@@ -1,0 +1,14 @@
+@include media(get-media(m1028)) {
+// header.main-header
+	header.main-header {
+// header.main-header .logo
+		.logo {
+			@include p;
+		}
+// header.main-header .fix-layout
+		.fix-layout {
+			padding-bottom: calculate-rem(40px);
+			min-height: auto;
+		}
+	}
+}

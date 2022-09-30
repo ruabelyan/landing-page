@@ -1,0 +1,51 @@
+// .css-b62m3t-container
+.css-b62m3t-container {
+	margin-top: calculate-rem(10px);
+
+	.css-b62m3t-container {
+		* {
+			outline: 0 !important;
+			border-radius: 0 !important;
+			box-shadow: 0 !important;
+		}
+	}
+}
+
+// .css-6j8wv5-Input
+.default-textarea,
+.contact-cell,
+.react-select__value-container,
+.react-select__dropdown-indicator,
+.react-select__control,
+.react-select__single-value {
+	font-size: calculate-rem(14px);
+}
+
+.css-b62m3t-container,
+.css-1pahdxg-control,
+.css-1s2u09g-control {
+	outline: 0 !important;
+	border-radius: 0 !important;
+	height: calculate-rem(45px) !important;
+	min-height: calculate-rem(45px) !important;
+	box-shadow: 0 !important;
+}
+
+.contact-cell {
+	.react-select__control {
+		border: none !important;
+		// background: rgba(239, 188, 24, 0.05);
+		background: rgba(get-color(yellow1), 0.05);
+	}
+}
+
+.react-select__control--is-focused {
+	box-shadow: none !important;
+	background: rgba(get-color(yellow1), 0.1) !important;
+}
+
+.select-custom-class {
+	.react-select__control {
+		background: get-color(white2);
+	}
+}

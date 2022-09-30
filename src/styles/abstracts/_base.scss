@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	text-decoration-skip: objects;
+	text-rendering: optimizelegibility;
+	text-size-adjust: 100%;
+	-webkit-tap-highlight-color: transparent;
+}
+
+a {
+	text-decoration: none;
+}
+
+a,
+button,
+textarea,
+input {
+	font-family: inherit;
+}
+
+button {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	background: none;
+	cursor: pointer;
+}

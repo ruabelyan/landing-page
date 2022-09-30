@@ -1,0 +1,75 @@
+// .animate-symbol
+.animate-symbol {
+	position: absolute;
+	z-index: 10;
+
+	// .animate-symbol circle
+	circle {
+		fill: get-color(dark1);
+	}
+
+	// .animate-symbol--1
+	&--1 {
+		@include size(calculate-rem(17.54px), calculate-rem(76px));
+
+		left: calc(55% - 8px);
+		top: calculate-rem(513px);
+	}
+
+	// .animate-symbol--2
+	&--2 {
+		@include size(calculate-rem(76px), calculate-rem(17.54px));
+
+		right: -6px;
+		top: calculate-rem(745px);
+	}
+
+	// .animate-symbol--3
+	&--3 {
+		@include size(calculate-rem(24.46px), calculate-rem(24.46px));
+
+		left: calc(49.3% + -9px);
+		top: calculate-rem(820px);
+
+		// .animate-symbol circle
+		circle {
+			opacity: 0.6;
+		}
+	}
+
+	// .animate-symbol--4
+	&--4 {
+		left: calculate-rem(6px);
+		top: calculate-rem(579px);
+		width: calculate-rem(106px);
+		opacity: 0.6;
+	}
+
+	// .animate-symbol--5
+	&--5 {
+		left: calculate-rem(509.46px);
+		top: calculate-rem(6px);
+		width: calculate-rem(24.46px);
+		opacity: 0.2;
+	}
+
+	// .animate-symbol--6
+	&--6 {
+		left: calculate-rem(40px);
+		top: calculate-rem(1290px);
+		width: calculate-rem(17px);
+		opacity: 0.1;
+	}
+
+	// .animate-symbol--7
+	&--7 {
+		left: calculate-rem(89px);
+		top: calculate-rem(2595px);
+		width: calculate-rem(17px);
+		opacity: 0.2;
+	}
+
+	@include media(get-media(m1030)) {
+		display: none;
+	}
+}

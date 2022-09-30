@@ -1,0 +1,136 @@
+// .card-advantage
+.card-advantage {
+	@include size-mh(calculate-rem(520px), calculate-rem(280px));
+	background-size: cover;
+	border-bottom-left-radius: 100px;
+	box-shadow: 0 0 10px rgba(get-color(dark1), 0.13);
+	transition: transform ease-in 0.15s;
+	will-change: transform;
+
+	// margin-bottom: 52px;
+	// margin-right: 5px;
+	// margin-left: 5px;
+	// .card-advantage--active
+	&--active {
+		transform: scale(1.06);
+		background: get-color(gradient-products);
+		border: 1px solid get-color(blue4);
+		box-shadow: 0 0 10px rgba(get-color(dark1), 0.6);
+	}
+
+	// .card-advantage__wrapper
+	&__wrapper {
+		padding-top: calculate-rem(52px);
+		@include media(get-media(m574)) {
+			padding-top: calculate-rem(22px);
+		}
+	}
+
+	// .card-advantage:nth-child(2n)
+	&:nth-child(2n) {
+		border-top-right-radius: 100px;
+		border-bottom-left-radius: 0;
+	}
+
+	// .card-advantage__title
+	&__title {
+		@include museo(700);
+		text-transform: capitalize;
+		color: get-color(white1);
+		font-size: calculate-rem(30px);
+		min-width: calculate-rem(186px);
+		padding: calculate-rem(38px) calculate-rem(80px);
+		box-sizing: border-box;
+		line-height: calculate-rem(36px);
+		text-align: center;
+
+
+		@include media(get-media(m650)) {
+			font-weight: 600;
+			font-size: calculate-rem(22px);
+			line-height: calculate-rem(36px);
+			color: get-color(white1);
+			padding: calculate-rem(38px) calculate-rem(30px);
+		}
+	}
+
+	// .card-advantage__description
+	&__description {
+		@include museo(300);
+		color: get-color(white1);
+		text-align: center;
+		font-size: calculate-rem(18px);
+		line-height: calculate-rem(33px);
+		max-width: calculate-rem(412px);
+		margin: auto;
+		padding: 0 calculate-rem(15px) calculate-rem(15px) calculate-rem(15px);
+
+		@include media(get-media(m650)) {
+			font-size: calculate-rem(14px);
+			line-height: calculate-rem(30px);
+			text-align: center;
+			color: get-color(white1);
+		}
+	}
+
+	// .card-advantage--about
+	&--about {
+		background-image: url("../../../img/card-adnavtage/card-about.png");
+
+		.card-advantage__title {
+			padding: calculate-rem(38px) calculate-rem(130px);
+
+			@include media(get-media(m650)) {
+				@include padding-x(calculate-rem(20px));
+			}
+		}
+	}
+
+	// .card-advantage--solutions
+	&--solutions {
+		background-image: url("../../../img/card-adnavtage/card-product.png");
+	}
+
+	// .card-advantage--products
+	&--products {
+		background-image: url("../../../img/card-adnavtage/card-solution.png");
+	}
+
+	@include media(get-media(m574)) {
+		// @include size(calculate-rem(), auto);
+		width: 319px;
+		height: auto;
+		// width: 100%;
+		margin: auto;
+		border-top-right-radius: 100px;
+		border-bottom-left-radius: 100px;
+
+		// .card-advantage__description:nth-child(2n)
+		&:nth-child(2n) {
+			border-top-right-radius: 100px;
+			border-bottom-left-radius: 100px;
+		}
+
+		// .card-advantage__card-title
+		&__card-title {
+			font-size: calculate-rem(22px);
+			padding: calculate-rem(38px) calculate-rem(10px);
+			text-align: center;
+		}
+
+		// .card-advantage__card-description
+		&__card-description {
+			font-size: calculate-rem(14px);
+			width: 90%;
+			text-align: center;
+			margin-top: calculate-rem(-26px);
+		}
+	}
+
+
+	// @media only screen and (min-width: 320px) and (max-width: 574px) {
+
+
+
+	// }
+}

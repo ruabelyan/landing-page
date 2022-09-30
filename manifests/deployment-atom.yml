@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "atompage"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "atompage"
+  template:
+    metadata:
+      labels:
+        app: "atompage"
+    spec:
+      containers:
+        - name: "atompage"
+          image: "atomconstructacr.azurecr.io/atom"
+          ports:
+          - containerPort: 3000

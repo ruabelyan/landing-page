@@ -1,0 +1,88 @@
+// .sector
+.sector {
+	$this: #{&};
+	text-align: center;
+
+	// .sector--1
+	&--1 {
+		@include padding-x(calculate-rem(10px));
+	}
+
+	// .sector--2
+	&--2 {
+		// @include p(rel, 0, calculate-rem(-27px));
+
+		@include media(get-media(m1300)) {
+			@include p;
+		}
+
+		// .sector--2 .sector__title
+		#{$this}__title {
+			@include padding-y(calculate-rem(55px), calculate-rem(14px));
+		}
+
+		// .sector--2 .sector__description
+		#{$this}__description {
+			@include x-center;
+			width: 70%;
+			@include media(get-media(m1300)) {
+				width: 100%;
+			}
+		}
+	}
+
+	// .sector--3
+	&--3 {
+		@include p(rel, 0, calculate-rem(-16px));
+
+		@include media(get-media(m1300)) {
+			@include p
+		}
+
+		// .sector--3 .sector__title
+		#{$this}__title {
+			padding-bottom: calculate-rem(3px);
+		}
+
+		// .sector--3 .sector__description
+		#{$this}__description {
+			@include x-center;
+			// @include p(rel, 0, calculate-rem(-18px));
+			// width: 116%;
+			text-align: center;
+
+			@include media(get-media(m1300)) {
+				@include p;
+				width: 100%;
+			}
+		}
+
+		@include media(get-media(m1300)) {
+			@include p;
+		}
+
+	}
+
+	// .sector__title
+	&__title {
+		@include padding-y(calculate-rem(43px), calculate-rem(9px));
+		@include museo(700);
+		font-size: calculate-rem(22px);
+		line-height: calculate-rem(36px);
+		color: get-color(dark2);
+		text-align: center;
+
+		@include media(get-media(m1300)) {
+			padding-top: calculate-rem(8px);
+		}
+	}
+
+	// .sector__description
+	&__description {
+		@include museo(300);
+		font-size: calculate-rem(16px);
+		line-height: calculate-rem(33px);
+		color: get-color(dark2);
+		text-align: center;
+	}
+}

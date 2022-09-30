@@ -1,0 +1,33 @@
+// .section-main-description
+.section-main-description {
+	@include museo(300);
+	@include p;
+	z-index: 20;
+	font-size: calculate-rem(18px);
+	line-height: calculate-rem(36px);
+	color: get-color(dark2);
+	display: block;
+	text-align: center;
+
+	// section-main-description--home-page
+	&--home-page {
+		@include x-center;
+		padding-top: calculate-rem(40px);
+		max-width: 1070px;
+
+		strong {
+			@include museo(700);
+		}
+	}
+
+	&--products-igaming-platform {
+		@include x-center;
+		max-width: 980px;
+		padding-top: calculate-rem(43px);
+	}
+
+	@include media(get-media(m1000)) {
+		@include padding-x(calculate-rem(30px));
+		padding-top: calculate-rem(24px);
+	}
+}

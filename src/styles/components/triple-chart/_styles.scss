@@ -1,0 +1,180 @@
+// .triple-chart-cell
+.triple-chart-cell {
+	@include p;
+	width: 100%;
+
+	// .triple-chart-cell:after
+/* 	&:after {
+		content: "";
+		@include size(1920px, 596px);
+		@include p("abs", 35%, 50%);
+		display: block;
+		background-size: cover;
+		transform: translate(-50%, -56%);
+		// background: url("../../../img/pages-bg/small2k.png") no-repeat center 56px;
+		background-size: cover;
+		opacity: 0.65;
+
+		@include media(get-media(m1030)) {
+			display: none;
+		}
+	} */
+
+	// .triple-chart-cell__mobile-bg
+	&__mobile-bg {
+		@include p("abs", 0, 0);
+		@include size(100%, 1159px);
+		// background: url("../../../img/pages-bg/small-vertical.png") no-repeat center top;
+		// background: url("../../../img/pages-bg/small-vertical.png") no-repeat -300px -60px;
+		// background: url("../../../img/pages-bg/small-vertical.png") no-repeat center -120px;
+		// background: url("../../../img/pages-bg/triple-vertical.png") no-repeat left -610px;
+
+		// background: url("../../../img/pages-bg/triple-vertical.png") no-repeat left -1060px;
+		// background: url("../../../img/pages-bg/triple-vertical.png") no-repeat left -1060px;
+		background: none;
+		opacity: 0.5;
+		display: none;
+
+		@include media(get-media(m1030)) {
+			display: block;
+			top: calculate-rem(0px);
+		}
+	}
+
+	// .triple-chart-cell__fix
+	&__fix {
+		@include p;
+		@include x-center;
+		// @include padding-x(calculate-rem(100px));
+		max-width: 1092px;
+		z-index: 10;
+
+		@include media(get-media(m1300)) {
+			@include padding-x(0);
+			max-width: 80%;
+		}
+	}
+
+	// .triple-chart-cell--products
+	// .triple-chart-cell--solutions
+	&--products,
+	&--solutions {
+		text-decoration: none;
+
+		// .sector
+		.sector {
+
+			// .sector__description
+			&__description {
+				line-height: calculate-rem(20px);
+				// width: 140% !important;
+
+				@include media(get-media(m1300)) {
+					width: 100% !important;
+				}
+			}
+
+			// .sector--3
+			&--3 {
+
+				// .sector--3 .sector
+				.sector {
+
+					// .sector--3 .sector__description
+					&__description {
+						@include p("rel", 0, 50%);
+						transform: translate(-50%, 0);
+
+						@include media(get-media(m1300)) {
+							@include p;
+							transform: translate(0, 0);
+						}
+					}
+				}
+
+			}
+
+			// .sector--1
+			&--1 {
+
+				// .sector--1 .sector
+				.sector {
+
+					// .sector--1 .sector__description
+					&__description {
+						@include p("rel", 0, 50%);
+						transform: translate(-50%, 0);
+
+						@include media(get-media(m1300)) {
+							@include p;
+							transform: translate(0, 0);
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+// .triple-chart
+.triple-chart {
+
+	// .triple-chart .triple-chart__row
+	&__row {
+		@include x-center;
+		@include flex(space-between);
+		min-height: 516px;
+
+		@include media(get-media(m1030)) {
+			@include x-center;
+			padding-top: 40px;
+			flex-direction: column;
+			max-width: 375px;
+		}
+	}
+
+	// .triple-chart__col
+	&__col {
+
+		// .triple-chart__col--1
+		&--1 {
+			// width: calculate-rem(350px);
+			width: 33.33%;
+			flex-shrink: 0;
+			padding-top: calculate-rem(132px);
+
+			// @include media(get-media(m1300)) {
+			@include media(get-media(m1030)) {
+				padding-top: calculate-rem(10px);
+				width: 100%;
+			}
+		}
+
+		// .triple-chart__col--2
+		&--2 {
+			width: 33.33%;
+			flex-shrink: 0;
+			padding-top: calculate-rem(252px);
+
+			// @include media(get-media(m1300)) {
+			@include media(get-media(m1030)) {
+				padding-top: calculate-rem(30px);
+				width: 100%;
+			}
+		}
+
+		// .triple-chart__col--3
+		&--3 {
+			padding-top: calculate-rem(132px);
+			width: 33.33%;
+			flex-shrink: 0;
+
+			// @include media(get-media(m1300)) {
+			@include media(get-media(m1030)) {
+				padding-top: calculate-rem(30px);
+				width: 100%;
+			}
+
+			}
+		}
+	}

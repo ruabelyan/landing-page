@@ -1,0 +1,109 @@
+// .lang-switcher
+.lang-switcher {
+	@include p;
+	@include flex;
+	padding-top: calculate-rem(27px);
+	min-width: calculate-rem(104.34px);
+	z-index: 1000;
+
+	// .lang-switcher--position
+	&--position {
+		@include p("abs", 0, calculate-rem(106.66px));
+	}
+
+	// lang-switcher__group
+	&__group {
+		@include flex;
+		@include p;
+		cursor: pointer;
+		padding-bottom: calculate-rem(10px);
+	}
+
+	// .lang-switcher__icon
+	&__icon {
+		width: calculate-rem(19.69px);
+	}
+
+	// .lang-switcher__label
+	&__label {
+		@include museo(500);
+		@include padding-x(calculate-rem(10px), calculate-rem(15px));
+		color: get-color(dark2);
+		font-size: calculate-rem(16px);
+		display: inline-block;
+		padding-top: calculate-rem(1px);
+	}
+
+	// .lang-switcher__label
+	&__arrow {
+		@include ptr(calculate-rem(6px), calculate-rem(-7px));
+		width: calculate-rem(12px);
+	}
+
+	// .lang-switcher__drop-down
+	&__drop-down {
+		@include p("abs", calculate-rem(30px), 0);
+		width: 100%;
+	}
+
+	// .lang-switcher__drop-down-container
+	&__drop-down-container {
+		min-width: calculate-rem(130px);
+		padding-bottom: calculate-rem(10px);
+		padding-right: calculate-rem(10px);
+		background: get-color(white1);
+		border-radius: 10px;
+		box-shadow: 0 0 20px rgba(get-color(dark1), 0.25);
+	}
+
+	// .lang-switcher__list
+	&__list {
+		padding-top: calculate-rem(19px);
+
+		// .lang-switcher__list-item
+		&-item {
+			padding: 0 calculate-rem(14px) calculate-rem(7px) calculate-rem(19px);
+
+			// .lang-switcher__list-item-link
+			&-link {
+				@include museo(500);
+				font-size: calculate-rem(14px);
+				line-height: calculate-rem(24px);
+				letter-spacing: calculate-rem(0.03px);
+				color: get-color(dark2);
+				opacity: 0.7;
+				transition: linear 0.16s opacity;
+				will-change: opacity;
+				white-space: nowrap;
+
+				&--current,
+				&:hover {
+					@include museo(700);
+					opacity: 1;
+				}
+			}
+		}
+	}
+
+	// .lang-switcher-desktop
+	&-desktop {
+		display: block;
+
+		@include media(get-media(m1028)) {
+			display: none;
+		}
+	}
+
+	&-mobile {
+		display: none;
+
+		@include media(get-media(m1028)) {
+			display: block;
+			padding-left: calculate-rem(20px);
+
+			.lang-switcher {
+				@include p;
+			}
+		}
+	}
+}

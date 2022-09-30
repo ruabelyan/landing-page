@@ -1,0 +1,21 @@
+.mobile-tech-circle-section {
+	@include x-center;
+	display: none;
+	padding-top: calculate-rem(20px);
+	max-width: 600px;
+
+	// .mobile-tech-circle-section__list
+	&__list {
+		display: block;
+	}
+
+	// .mobile-tech-circle-section__it
+	&__it {
+		@include museo(500);
+		@include flex(null, center);
+
+		font-size: calculate-rem(16px);
+		line-height: calculate-rem(26px);
+		color: get-color(dark2);
+	}
+}

@@ -1,0 +1,41 @@
+@include media(get-media(m866)) {
+
+	// .main-header
+	.main-header {
+
+		// .main-header .logo
+		.logo {
+			margin-left: calculate-rem(18px);
+		}
+
+		// .main-header--blue
+		// .main-header--green
+		// .main-header--yellow
+		&--yellow,
+		&--blue,
+		&--green {
+			background-position: right 0;
+			background-size: 681px;
+		}
+
+		// .main-header .default-btn
+		.default-btn {
+			margin-top: calculate-rem(16px);
+
+			// .main-header .default-btn__solid-fill
+			&__solid-fill {
+				padding: calculate-rem(7px) calculate-rem(15px) calculate-rem(3px) calculate-rem(14px);
+				font-size: calculate-rem(14px);
+			}
+
+			// .main-header .default-btn:hover
+			&:hover {
+
+				// .main-header .default-btn:hover::before
+				&::before {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}

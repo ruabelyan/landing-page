@@ -1,0 +1,3 @@
+@function calculate-rem($pixel) {
+	@return #{calc(strip-unit($pixel) / strip-unit($base-line)) * 1rem};
+}

@@ -1,0 +1,19 @@
+// .description-2
+.description-2 {
+	@include x-center;
+
+	display: block;
+	max-width: 788px;
+	font-size: calculate-rem(14px);
+	line-height: calculate-rem(24px);
+	text-align: center;
+	color: get-color(dark2);
+
+	// .description-2 a
+	a {
+		font-size: calculate-rem(14px);
+		line-height: calculate-rem(17px);
+		text-align: center;
+		color: get-color(blue3);
+	}
+}

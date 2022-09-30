@@ -1,0 +1,16 @@
+// .agree-row
+.agree-row {
+	@include flex($align-items: flex-start);
+
+	font-size: calculate-rem(14px);
+	line-height: calculate-rem(16px);
+	color: rgba(get-color(dark3), 0.5);
+
+	// .agree-row__label
+	&__label {
+		@include padding-tl(calculate-rem(25px), calculate-rem(10px));
+		display: inline-block;
+		color: get-color(dark2);
+		cursor: pointer;
+	}
+}

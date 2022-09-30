@@ -1,0 +1,16 @@
+// .section-descr
+.section-descr {
+	@include x-center;
+	@include museo(300);
+	@include padding-x(calculate-rem(30px));
+
+	font-size: calculate-rem(18px);
+	line-height: calculate-rem(36px);
+	text-align: center;
+	color: get-color(dark2);
+ max-width: 1050px;
+	// .section-descr strong
+	strong {
+		@include museo(700);
+	}
+}

@@ -1,0 +1,18 @@
+// .default-input
+.default-input {
+	@include size(100%, calculate-rem(45px));
+
+	display: block;
+	border-radius: 1px;
+	padding-left: calculate-rem(12px);
+	background: rgba(get-color(yellow1), 0.05);
+	border: none;
+	font-size: calculate-rem(14px);
+
+	// .default-input:focus
+	// .default-input--fill
+	&:focus,
+	&--fill {
+		background: rgba(get-color(yellow1), 0.1);
+	}
+}

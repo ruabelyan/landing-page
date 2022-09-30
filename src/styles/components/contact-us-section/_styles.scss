@@ -1,0 +1,239 @@
+// .contact-us-section
+.contact-us-section {
+	display: block;
+	min-height: calculate-rem(710px);
+}
+
+// .contact-form-section
+.contact-form-section {
+	@include no-shift;
+
+	padding-top: calculate-rem(69px);
+
+	// .contact-form-section .agree-row
+	.agree-row {
+		padding-top: calculate-rem(8px);
+	}
+
+	// .contact-form-section .default-textarea,
+	// .contact-form-section .default-input
+	.default-textarea,
+	.default-input {
+		margin-top: calculate-rem(10px);
+		border: none;
+	}
+
+	// .contact-form-section .agree-checkbox
+	.agree-checkbox {
+		@include p("rel", calculate-rem(20px), 0);
+	}
+}
+
+// .contact-row
+.contact-row {
+	display: flex;
+	margin-bottom: calculate-rem(60px);
+	gap: 20px;
+
+	// .contact-row--textarea
+	&--textarea {
+		margin-bottom: 0;
+		position: relative;
+
+		// .contact-row--textarea:after
+		&:after {
+			bottom: calculate-rem(1px) !important;
+			height: calculate-rem(2px) !important;
+		}
+	}
+}
+
+// .error-message
+.error-message {
+	padding-top: calculate-rem(10px);
+	color: get-color(red2);
+}
+
+// .contact-cell
+.contact-cell {
+	@include p;
+
+	width: 100%;
+
+	// .contact-cell .text-decoration
+	.text-decoration {
+		@include size(calculate-rem(5px));
+		position: absolute;
+		top: calculate-rem(3px);
+		background: get-color(red2);
+		border-radius: 50%;
+		display: inline-block;
+	}
+
+	// .contact-cell p
+	p {
+		@include pbl(calculate-rem(-14px), 0);
+		@include padding-y(calculate-rem(5px), calculate-rem(5px));
+		padding-left: calculate-rem(9px);
+		width: 100%;
+		font-size: calculate-rem(13px) !important;
+		color: get-color(red4);
+		background: get-color(white2);
+		display: flex;
+	}
+
+	// .css-1okebmr-indicatorSeparator
+	.css-1okebmr-indicatorSeparator {
+		display: none;
+	}
+
+	// .contact-cell *
+	* {
+		outline: 0 !important;
+		box-shadow: 0 !important;
+		// font-size: calculate-rem(15px) !important;
+	}
+
+	// .contact-cell--captcha
+	&--captcha {
+		@include flex(flex-start, flex-start);
+	}
+
+	// .contact-cell--btn
+	&--btn {
+		@include flex(flex-end, flex-start);
+
+		// .default-btn__solid-fill
+		.default-btn__solid-fill {
+			@include padding-x(calculate-rem(67px));
+		}
+	}
+}
+
+// .your-custom-left-size
+.your-custom-left-size {
+	// left: calculate-rem(100px);
+	right: calculate-rem(-10px);
+}
+
+// .touched
+.touched {
+
+	// .touched:after
+	&:after {
+		content: "";
+		background: get-color(red2) !important;
+	}
+}
+
+// .danger-after
+.danger-after {
+
+	// .danger-after:after
+	&:after {
+		content: "";
+		background: get-color(red3) !important;
+	}
+}
+
+// .danger
+.danger {
+	background: get-color(red3) !important;
+}
+
+// .contact-cell-custom
+.contact-cell-custom {
+
+	// .contact-cell-custom .describe-custom-left-size
+	.describe-custom-left-size {
+		// left: calculate-rem(184px);
+		right: calculate-rem(-10px);
+	}
+
+	// .contact-cell-custom .name-custom-left-size
+	.name-custom-left-size {
+		// left: calculate-rem(45px);
+		right: calculate-rem(-10px);
+	}
+
+	// .contact-cell-custom .email-custom-left-size
+	.email-custom-left-size {
+		// left: calculate-rem(48px);
+		right: calculate-rem(-10px);
+	}
+
+	// .contact-cell-custom:after
+	&:after {
+		@include size(100%, 1.5px);
+		content: "";
+		background: get-color(red2);
+		position: absolute;
+	}
+}
+
+// .checkmark
+.checkmark {
+	@include size(calculate-rem(18px));
+	@include p("abs", calculate-rem(3px), 0);
+	background: get-color(red2);
+	border-radius: 4px;
+
+	// .checkmark:after
+	&:after {
+		content: "";
+		position: absolute;
+		display: none;
+	}
+}
+
+// .container
+.container {
+	position: relative;
+	top: calculate-rem(20px);
+	display: block;
+	padding-left: calculate-rem(10px);
+	margin-bottom: calculate-rem(12px);
+	cursor: pointer;
+	font-size: calculate-rem(22px);
+	user-select: none;
+
+	// checkbox input
+	input {
+		@include size(0);
+		position: absolute;
+		opacity: 0;
+		cursor: pointer;
+
+		// checkbox input:checked~.checkmark
+		&:checked~.checkmark {
+			background-color: get-color(red2);
+		}
+
+		// checkbox input:checked~.checkmark
+		&:checked~.checkmark {
+
+			// checkbox input:checked~.checkmark:after
+			&:after {
+				display: block;
+			}
+		}
+	}
+
+	&:hover input~.checkmark {
+		background-color: get-color(white4);
+	}
+
+	// .container .checkmark
+	.checkmark {
+
+		// .container .checkmark:after
+		&:after {
+			@include size(calculate-rem(6px), calculate-rem(11px));
+			left: calculate-rem(6px);
+			top: calculate-rem(2px);
+			border: solid get-color(white1);
+			border-width: 0 2px 2px 0;
+			transform: rotate(45deg);
+		}
+	}
+}

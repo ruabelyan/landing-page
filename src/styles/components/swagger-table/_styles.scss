@@ -1,0 +1,37 @@
+.swagger-table {
+	color: get-color(dark4);
+	font-family: sans-serif;
+	font-size: calculate-rem(14px);
+	text-align: left;
+	width: 100%;
+	margin: calculate-rem(30px) calculate-rem(10px) calculate-rem(10px);
+
+	th,
+	td {
+		@include museo(300);
+	}
+
+	td {
+		padding: calculate-rem(10px) 0;
+	}
+
+	th {
+		font-weight: 700;
+	}
+
+	code {
+		background: rgba(get-color(dark4), 0.05);
+		border-radius: 4px;
+		color: get-color(red5);
+		font-family: monospace;
+		font-size: calculate-rem(14px);
+		font-weight: 600;
+		padding: calculate-rem(5px) calculate-rem(7px);
+	}
+
+	tbody {
+		tr td:first-child {
+			padding-left: calculate-rem(30px);
+		}
+	}
+}

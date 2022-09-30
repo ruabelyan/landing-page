@@ -1,0 +1,20 @@
+// .main-section-description
+.main-section-description {
+	@include museo(300);
+
+	font-size: calculate-rem(24px);
+	line-height: calculate-rem(36px);
+	word-spacing: calculate-rem(1px);
+	color: get-color(dark2);
+	
+	// .main-section-description--max-wide
+	&--max-wide {
+		max-width:100%
+	}
+
+	strong {
+		@include museo(700);
+	}
+}
+
+

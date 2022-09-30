@@ -1,0 +1,3 @@
+@function choose-map($map) {
+	@return map-get($map, nth(nth($map, 1), 1));
+}

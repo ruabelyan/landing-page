@@ -1,0 +1,61 @@
+
+@import "mixins/font";
+@import "mixins/line-height-crop";
+
+// @import "mixins/fluid";
+@import "mixins/flex-alignment";
+@import "mixins/margin";
+@import "mixins/padding";
+@import "mixins/overflow";
+@import "mixins/position";
+@import "mixins/scroll";
+@import "mixins/size";
+@import "mixins/transition";
+@import "mixins/truncate-txt";
+@import "mixins/placeholder";
+@import "mixins/smooth-scrollbar";
+@import "mixins/no-shift";
+
+
+@mixin after-before-button-state() {
+	@include size(100%);
+	@include p("abs");
+	content: "";
+	transition: linear 0.16s opacity;
+	will-change: opacity;
+	opacity: 0;
+	overflow: hidden;
+}
+
+@mixin center-absolute {
+	@include p("abs", 50%, 50%);
+	transform: translate(-50%, -50%);
+}
+
+@mixin media($media-size) {
+	@media (max-width: $media-size) {
+		@content;
+	}
+}
+
+@mixin flex($justify-content: null,
+	$align-items: null,
+	$direction: null,
+	$flex-wrap: null,
+	$display: flex) {
+	display: $display;
+	flex-direction: $direction;
+	flex-wrap: $flex-wrap;
+	align-items: $align-items;
+	justify-content: $justify-content;
+}
+
+@mixin center-flex {
+	@include flex(center, center);
+}
+
+@mixin museo($font-weight) {
+	font-family: "Museo Sans Cyrl #{$font-weight}",
+	sans-serif;
+	font-weight: $font-weight;
+}

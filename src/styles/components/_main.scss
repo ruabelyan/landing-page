@@ -1,0 +1,160 @@
+@import "./page-wrapper/main";
+@import "./banner/main";
+@import "./fix-layout/main";
+@import "./main-nav/main";
+@import "./animate-symbol/main";
+@import "./main-title/main";
+@import "./main-section-description/main";
+@import "./default-btn/main";
+@import "./section-title/main";
+@import "./section-descr/main";
+@import "./logo/main";
+@import "./footer/main";
+@import "./description-2/main";
+@import "./soc-icon/main";
+@import "./copy-right/main";
+@import "./tech-circle-section/main";
+@import "./contact-us-section/main";
+@import "./default-input/main";
+@import "./default-label/main";
+@import "./default-textarea/main";
+@import "./agree-row/main";
+@import "./react-select/main";
+@import "./mobile-tech-circle-section/main";
+@import "./ic/main";
+@import "./mobile-menu/main";
+@import "./outline-btn/main";
+@import "./e404/main";
+@import "./pop-up/main";
+@import "./media-1366";
+@import "./media-1290";
+@import "./media-1028";
+@import "./media-866";
+@import "./swagger-table";
+.triangle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    // min-width: 490px;
+    // max-width: 30%;
+}
+
+
+/* stylelint-disable */
+
+
+/* prettier-ignore */
+
+.smock {
+    position: absolute;
+    top: -90px;
+    right: -160px;
+    min-width: 300px;
+    @keyframes smock1 {
+        0% {
+            transform: scale(1.1) translate(0, 0px) rotate(20deg)
+        }
+        100% {
+            transform: scale(1.35) translate(0, 10px) rotate(35deg)
+        }
+    }
+    &--1 {
+        transform: rotate(20deg);
+        z-index: 10;
+        max-width: 44%;
+        animation: smock1 20s infinite alternate ease-in-out;
+    }
+    @keyframes smock2 {
+        0% {
+            transform: scale(1.1) translate(0, 0px) rotate(-22deg)
+        }
+        100% {
+            transform: scale(1.45) translate(0, 10px) rotate(15deg)
+        }
+    }
+    &--2 {
+        transform: rotate(-22deg);
+        z-index: 9;
+        max-width: 55%;
+        animation: smock2 25s infinite alternate ease-in-out;
+        top: -200px;
+        right: -330px;
+    }
+    @keyframes smock3 {
+        0% {
+            transform: scale(1.1) translate(0, 60)
+        }
+        100% {
+            transform: scale(1.45) translate(20px, 20px) rotate(-45deg)
+        }
+    }
+    &--3 {
+        z-index: 8;
+        max-width: 49%;
+        opacity: 0.7;
+        animation: smock3 30s infinite alternate ease-in-out;
+    }
+    &--placeholder {
+        filter: blur(20px);
+        width: 100%;
+        max-width: 55%;
+        animation-play-state: paused;
+    }
+}
+
+
+/* stylelint-enable */
+
+@import "./swagger-table/main";
+@import "./api-doc/main";
+@import "./lang-switcher/main";
+@import "./card-advantage/main";
+@import "./triple-chart/main";
+@import "./service-button/main";
+@import "./sector/main";
+@import "./section-main-description/main";
+@import "./section-main-title/main";
+@import "./anchor-section/main";
+.scroll-bar-block {
+    width: 100%;
+    max-height: 100%;
+}
+
+// .products-page-content
+.products-page-content {
+    @include p;
+    z-index: 100;
+    width: 100%;
+}
+
+// .products-card-list-cell
+.products-card-list-cell {
+    @include p;
+    @include flex(center, center, $flex-wrap: wrap);
+    @include x-center;
+    z-index: 100;
+    gap: 0 calculate-rem(52px);
+    max-width: 1092px;
+    @include media(get-media(m1240)) {
+        border-left: solid transparent 10px;
+        border-right: solid transparent 10px;
+        flex-wrap: wrap;
+    }
+}
+
+// solutions-page-content
+.solutions-page-content {
+    @include p;
+    z-index: 100;
+    width: 100%;
+}
+
+// .about-page-content
+.about-page-content {
+    @include p;
+    z-index: 1000;
+    width: 100%;
+    padding-bottom: calculate-rem(60px);
+}

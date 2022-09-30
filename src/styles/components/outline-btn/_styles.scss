@@ -1,0 +1,21 @@
+// .outline-btn
+.outline-btn {
+	@include museo(500);
+	@include x-center;
+
+	display: inline-block;
+	margin-top: calculate-rem(45px);
+	margin-bottom: calculate-rem(45px);
+	border: 2px solid get-color(red2);
+	padding: calculate-rem(4px) calculate-rem(35px) calculate-rem(6px);
+	font-size: calculate-rem(16px);
+	line-height: calculate-rem(26px);
+	text-align: center;
+	color: get-color(red2);
+	transition: transform 0.16s linear;
+
+	// .outline-btn:hover
+	&:hover {
+		transform: scale(1.1);
+	}
+}

@@ -1,0 +1,672 @@
+{
+	"langs": [
+		{
+			"id": 0,
+			"langCode": "en",
+			"label": "English"
+		},
+		{
+			"id": 1,
+			"langCode": "es",
+			"label": "Spanish"
+		},
+		{
+			"id": 2,
+			"langCode": "pt",
+			"label": "Br-Portugues"
+		},
+		{
+			"id": 3,
+			"langCode": "ru",
+			"label": "Russian"
+		}
+	],
+	"navLinks": [
+		{
+			"id": 0,
+			"label": "Inicial",
+			"hrefTo": ["/"],
+			"category": "/"
+		},
+		{
+			"id": 1,
+			"label": "Produtos",
+			"hrefTo": [
+				"/products",
+				"/products-igaming-platform",
+				"/products-igaming-aggregator"
+			],
+			"category": "products"
+		},
+		{
+			"id": 2,
+			"label": "Solutions",
+			"hrefTo": ["/solutions", "/solutions-white-label", "/solutions-turnkey"],
+			"category": "solutions"
+		},
+		{
+			"id": 3,
+			"label": "Contacto",
+			"hrefTo": ["/contact-us", "/contact-us/#contacts"],
+			"category": "contact-us"
+		},
+		{
+			"id": 4,
+			"label": "API Documentação",
+			"hrefTo": ["/solutions/rgs/api"],
+			"category": "api"
+		}
+	],
+	"socialLinks": [
+		{
+			"id": 0,
+			"label": "Facebook",
+			"hrefTo": "https://www.facebook.com/atomconstruct.soft",
+			"icon": {
+				"label": "FacebookIcon",
+				"width": "17.67px"
+			}
+		},
+		{
+			"id": 1,
+			"label": "Instagram",
+			"hrefTo": "https://www.instagram.com/atom.construct/",
+			"icon": {
+				"label": "InstagramIcon",
+				"width": "17px"
+			}
+		},
+		{
+			"id": 2,
+			"label": "Twitter",
+			"hrefTo": "https://twitter.com/AtomConstruct",
+			"icon": {
+				"label": "TwitterIcon",
+				"width": "17px"
+			}
+		},
+		{
+			"id": 3,
+			"label": "Youtube",
+			"hrefTo": "https://www.youtube.com/channel/UCLzYwIhkd4hUFPcFgotdz9Q",
+			"icon": {
+				"label": "YoutubeIcon",
+				"width": "16.67px"
+			}
+		},
+		{
+			"id": 4,
+			"label": "linkedin",
+			"hrefTo": "https://www.linkedin.com/company/atomconstruct-soft/",
+			"icon": {
+				"label": "LinkedinIcon",
+				"width": "16px"
+			}
+		},
+		{
+			"id": 5,
+			"label": "pinterest",
+			"hrefTo": "http://www.pinterest.com/AtomConstruct",
+			"icon": {
+				"label": "LinkedinIcon",
+				"width": "11.99px"
+			}
+		}
+	],
+	"home.title": "Create your own<br />Casino with Atom",
+	"home.description": "Nossas soluções tornam seu negócio tecnologicamente avançado e multifuncional",
+	"home.buttonLabel": "Receber uma proposta",
+	"home.mainTitle": "Sobre Nós",
+	"home.mainDescription": "Somos uma empresa de desenvolvimento de software orientado a dados. Fornecemos soluções que capacitam suas operações de jogo",
+	"home.about.list": [
+		{
+			"id": 0,
+			"title": "Apostas",
+			"description": "Os jogos são parte integrante<br/>de qualquer cassino online",
+			"quantity": "10000+"
+		},
+		{
+			"id": 1,
+			"title": "Provedores",
+			"description": "Fizemos parceria com os melhores fornecedores de jogos de cassino online para oferecer aos nossos parceiros produtos de qualidade, criativos e inovadores",
+			"quantity": "100+"
+		},
+		{
+			"id": 2,
+			"title": "Associados",
+			"description": "Our solutions make your business<br/>technologically advanced and<br/>multifunctional",
+			"quantity": "141+"
+		}
+	],
+	"home.cardTitle": "Visões",
+	"home.cardsList": [
+		{
+			"id": 0,
+			"title": "Mudando a mentalidade da indústria iGaming e a forma de negócios",
+			"description": ""
+		},
+		{
+			"id": 1,
+			"title": "Trazendo novos valores através de inovações técnicas e IA avançada",
+			"description": ""
+		}
+	],
+	"home.project.footer.offer": "O Atom certamente fornecerá a você e à sua empresa a melhor experiência do cliente que você deseja para seus clientes",
+	"home.project.copyright": "Todos os direitos reservados",
+	"products.title": "Atom Casino<br/>Produtos",
+	"products.description": "Uma maneira fácil de ser diferente. podemos oferecer a melhor maneira",
+	"products.buttonLabel": "Receber uma proposta",
+	"products.pageTitle": "Nossos produtos",
+	"products.pageDescription": "A Atom Construct oferece aos operadores de cassinos produtos inovadores e de alta qualidade que ajudarão os operadores a se diferenciarem e serem competitivos no setor",
+	"products.platform.title": "Plataforma iGaming",
+	"products.platform.description": "A Plataforma Igaming é uma ferramenta de gerenciamento fácil de usar. É um ambiente a partir do qual a equipe do operador do cassino pode realizar e gerenciar todas as atividades dos jogadores, tais como rastreamento e relatórios sobre seu histórico de jogos, acompanhamento de transações financeiras, gerenciamento de parcerias e monitoramento de dados estatísticos",
+	"products.aggregator.title": "iGaming Aggregator",
+	"products.aggregator.description": "O iGaming Aggregator fornece mais de 10 000 jogos multilíngües e amigáveis para celular de mais de 100 líderes mundiais em um só lugar",
+	"productsIgamingPlatform.pageTitle": "Plataforma iGaming",
+	"productsIgamingPlatform.pageDescription": "A Plataforma Igaming é uma ferramenta de gerenciamento fácil de usar. É um ambiente a partir do qual a equipe do operador do cassino pode realizar e gerenciar todas as atividades dos jogadores, tais como rastreamento e relatórios sobre seu histórico de jogos, acompanhamento de transações financeiras, gerenciamento de parcerias e monitoramento de dados estatísticos",
+	"productsIgamingPlatformList": [
+		{
+			"id": 0,
+			"buttonSortId": 0,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Tempo rápido para comercializar",
+			"cardSortId": 0,
+			"title": "Uma semana para criar seu próprio negócio iGaming",
+			"description": "Crie seu projeto pronto para iniciar sua operação iGaming",
+			"hashHref": "1-weeg-igaming-business",
+			"icon": {
+				"name": "FastGoToMarket",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 1,
+			"buttonSortId": 1,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Os preços mais baixos",
+			"cardSortId": 1,
+			"title": "Os preços mais baixos",
+			"description": "Oferecer aos nossos parceiros as taxas de juros mais baixas do mercado para cooperação, sem nenhuma taxa de instalação",
+			"hashHref": "the-lowest-prices",
+			"icon": {
+				"name": "TheLowestPrices",
+				"width": "30.27px"
+			}
+		},
+		{
+			"id": 2,
+			"buttonSortId": 2,
+			"buttonTitleClassNameModify": "top-1",
+			"buttonTitle": "Alto desempenho",
+			"cardSortId": 2,
+			"title": "Tudo em um produto e alto desempenho",
+			"description": "Devido às mais recentes tecnologias, proporcionar a capacidade única de fazer até 18.000 apostas por segundo, e todas as soluções que os usuários precisam para seu trabalho diário",
+			"hashHref": "all-in-one-and-high-performance",
+			"icon": {
+				"name": "HighPerformance",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 3,
+			"buttonSortId": 3,
+			"buttonTitleClassNameModify": "top-2",
+			"buttonTitle": "Gestão de jogadores",
+			"cardSortId": 3,
+			"title": "Gestão de jogadores",
+			"description": "Histórico de atividades do jogador, gerenciamento de verificação de documentos, bônus personalizados, KYC, mecanismo antifraude, programa de fidelidade, carteira com várias moedas",
+			"hashHref": "manage-players",
+			"icon": {
+				"name": "ManagePlayers",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 4,
+			"buttonSortId": 4,
+			"buttonTitleClassNameModify": "top-2",
+			"buttonTitle": "Ferramentas promocionais",
+			"cardSortId": 4,
+			"title": "Ferramentas promocionais",
+			"description": "Permite atrair mais jogadores com um novo tipo de bônus que não existe no mundo",
+			"hashHref": "promotional-tools",
+			"icon": {
+				"name": "PromotionalTools",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 5,
+			"buttonSortId": 5,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Inteligência artificial avançada",
+			"cardSortId": 5,
+			"title": "IA avançada",
+			"description": "Sistema de recomendação de inteligência artificial para jogadores, baseado em grandes dados",
+			"hashHref": "advanced-ai",
+			"icon": {
+				"name": "AdvancedAi",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 6,
+			"buttonSortId": 6,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Construtor de website e CMS",
+			"cardSortId": 6,
+			"title": "Construtor de website e CMS",
+			"description": "O usuário não precisa ter nenhum conhecimento técnico para criar seu próprio site e facilmente gerenciá-lo e personalizá-lo",
+			"hashHref": "website-builder-and-cms",
+			"icon": {
+				"name": "WebsiteBuilderCms",
+				"width": "46.67px"
+			}
+		},
+		{
+			"id": 7,
+			"buttonSortId": 7,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "",
+			"cardSortId": 7,
+			"title": "Sistema de relatórios",
+			"description": "Relatórios em tempo real sobre pagamentos, apostas, bônus e muito mais, com suporte em várias moedas",
+			"hashHref": "reporting-system",
+			"icon": {
+				"name": "",
+				"width": ""
+			}
+		}
+	],
+	"productsIgamingAggregator.pageTitle": "iGaming Aggregator",
+	"productsIgamingAggregator.pageDescription": "O iGaming Aggregator fornece mais de 10 000 jogos multilíngües e amigáveis para celular de mais de 100 líderes mundiais em um só lugar. O iGaming Aggregator dará a possibilidade de gerenciar, ativar e controlar todo o conteúdo do jogo, o que será necessário para a satisfação dos jogadores",
+	"productsIgamingAggregatorList": [
+		{
+			"id": 0,
+			"buttonSortId": 0,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Motor de bônus flexível",
+			"cardSortId": 0,
+			"title": "Flexible Bonus Engine",
+			"description": "Allows to attract more players with a new type of bonus that has never been seen before in the world",
+			"hashHref": "flexible-bonus-engine",
+			"icon": {
+				"name": "PromotionalTools",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 1,
+			"buttonSortId": 1,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Vários idiomas e várias moedas",
+			"cardSortId": 1,
+			"title": "Multiple languages and Multiple currencies",
+			"description": "Providing a multilingual interface for businesses and with the ability to obtain multi-currency accounts",
+			"hashHref": "multiple-languages-and-multiple-currencies",
+			"icon": {
+				"name": "MulticurrencyMultilingual",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 2,
+			"buttonSortId": 2,
+			"buttonTitleClassNameModify": "top-1",
+			"buttonTitle": "Mais de 10.000 jogos",
+			"cardSortId": 2,
+			"title": "Mais de 10.000 jogos",
+			"description": "Nearly 10 000+ awesome games from world famous game studios",
+			"hashHref": "world-famous-game-providers",
+			"icon": {
+				"name": "Games10000",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 3,
+			"buttonSortId": 3,
+			"buttonTitleClassNameModify": "top-2",
+			"buttonTitle": "Integração API única",
+			"cardSortId": 3,
+			"title": "One-time API Integration with 3rd party PAM/Wallet",
+			"description": "A single straightforward API for all game aggregation needs. Quickly and easily Integration and Setup Thanks to our simple and easy API",
+			"hashHref": "one-time-api-integration",
+			"icon": {
+				"name": "OneTimeApiIntegration",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 4,
+			"buttonSortId": 4,
+			"buttonTitleClassNameModify": "top-2",
+			"buttonTitle": "Reduced Time-to-market",
+			"cardSortId": 4,
+			"title": "Reduced Time-to-market",
+			"description": "Run in the shortest time possible and can go-to-market, about 1 weeks",
+			"hashHref": "reduced-time-to-market",
+			"icon": {
+				"name": "ReducedTimeToMarket",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 5,
+			"buttonSortId": 5,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Over 100+ providers",
+			"cardSortId": 5,
+			"title": "Tested and proven HTML5 3rd party games",
+			"description": "Providing game content from world famous and popular game providers",
+			"hashHref": "over-100-providers",
+			"icon": {
+				"name": "OverProviders",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 6,
+			"buttonSortId": 6,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Suporte 24/7 ",
+			"cardSortId": 6,
+			"title": "24/7 Customer Support and Technical Customer Support",
+			"description": "Multilingual customer support. Full resolution of issues in 15 hours or less",
+			"hashHref": "support-24-7",
+			"icon": {
+				"name": "AnyTime",
+				"width": "50px"
+			}
+		},
+
+		{
+			"id": 7,
+			"buttonSortId": 7,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Redução do tempo de colocação no mercado",
+			"cardSortId": 7,
+			"title": "Ready-to-use online casino solution for short implementation time",
+			"description": "Ready-to-use online casino solution for short implementation time",
+			"hashHref": "",
+			"icon": {
+				"name": "",
+				"width": ""
+			}
+		}
+	],
+	"solutions.title": "Soluções",
+	"solutions.description": "Sendo um negócio puramente B2B, AtomConstruct oferece dois tipos de soluções com CUSTOS DE INSTALAÇÃO ZERO. Atom é adequado para integrações de qualquer plataforma de jogos no mercado",
+	"solutions.buttonLabel": "Receber uma proposta",
+	"solutions.pageTitle": "Soluções",
+	"solutions.pageDescription": "Sendo um negócio puramente B2B, AtomConstruct oferece dois tipos de soluções com CUSTOS DE INSTALAÇÃO ZERO. Atom é adequado para integrações de qualquer plataforma de jogos no mercado",
+	"solutions.cardsList[0].title": "White Label",
+	"solutions.cardsList[0].description": "O White Label (selo branco) cassino online é uma solução econômica e fácil de usar destinada a lançar seu próprio cassino dentro de uma semana.<br/><br/>Graças à nossa arquitetura, podemos oferecer a nosso parceiro um projeto pronto para lançar seu próprio negócio iGaming no menor tempo possível",
+	"solutionsWhiteLabelList": [
+		{
+			"id": 0,
+			"buttonSortId": 0,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Entrada no mercado",
+			"cardSortId": 0,
+			"title": "Tempo mais rápido para o mercado: dentro de uma semana",
+			"description": "Solução pronta para uso em cassinos online por um curto período de implementação",
+			"hashHref": "market-entry",
+			"icon": {
+				"name": "MarketEntry",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 1,
+			"buttonSortId": 1,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Cross-platform",
+			"cardSortId": 1,
+			"title": "Solução multiplataforma com um poderoso backoffice",
+			"description": "Fornecer produtos que cubram o trabalho diário dos parceiros dentro de um backoffice",
+			"hashHref": "cross-platform",
+			"icon": {
+				"name": "CrossPlatform",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 2,
+			"buttonSortId": 2,
+			"buttonTitleClassNameModify": "top-1",
+			"buttonTitle": "Sem custo de instalação",
+			"cardSortId": 2,
+			"title": "Sem taxa de instalação - você ganha, nós ganhamos!",
+			"description": "Crie seu próprio cassino online com investimento ZERO!",
+			"hashHref": "no-setup-fee",
+			"icon": {
+				"name": "NoSetupFee",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 3,
+			"buttonSortId": 3,
+			"buttonTitleClassNameModify": "top-2",
+			"buttonTitle": "Mais de 10.000 jogos",
+			"cardSortId": 3,
+			"title": "Mais de 10.000 jogos dos melhores fornecedores do mundo",
+			"description": "Jogos de cassino populares através de uma única integração API",
+			"hashHref": "games-10000",
+			"icon": {
+				"name": "MoreGames",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 4,
+			"buttonSortId": 4,
+			"buttonTitleClassNameModify": "top-2",
+			"buttonTitle": "Multidivisas e multilíngües",
+			"cardSortId": 4,
+			"title": "Multi-moeda e número ilimitado de idiomas",
+			"description": "Fornecer a capacidade de obter um número ilimitado de idiomas e moedas",
+			"hashHref": "multicurrency-multilingual",
+			"icon": {
+				"name": "MulticurrencyMultilingual2",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 5,
+			"buttonSortId": 5,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Interface",
+			"cardSortId": 5,
+			"title": "Interface fácil de usar com configurações multilíngües",
+			"description": "Fornecendo uma interface de fácil utilização que aumenta a produtividade diária e facilita o uso",
+			"hashHref": "interface",
+			"icon": {
+				"name": "Interface",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 6,
+			"buttonSortId": 6,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Suporte 24/7",
+			"cardSortId": 6,
+			"title": "Suporte técnico e ao cliente 24/7",
+			"description": "Atendimento ao cliente em vários idiomas. Solução completa do problema em 15 horas ou menos",
+			"hashHref": "support-24-7",
+			"icon": {
+				"name": "AnyTime2",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 7,
+			"buttonSortId": 7,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Fantásticas ferramentas promocionais",
+			"cardSortId": 7,
+			"title": "Fantásticas ferramentas promocionais",
+			"description": "Possibilita atrair mais jogadores com um novo tipo de bônus que não está disponível no mundo",
+			"hashHref": "",
+			"icon": {
+				"name": "",
+				"width": ""
+			}
+		}
+	],
+	"solutions.cardsList[1].title": "Cassino pronto para uso",
+	"solutions.cardsList[1].description": "O cassino online chave na mão é um cassino online multifuncional próprio que lhe oferece oportunidades ilimitadas de personalização. A opção de cassino online chave na mão, mais adequada para operadores experientes de iGaming, fornece o software e o suporte técnico de que você precisa para ser independente.Nós o ajudaremos a montar um negócio iGaming e a obter sua própria licença de jogo",
+	"solutionsWhiteLabel.pageTitle": "White Label",
+	"solutionsWhiteLabel.pageDescription": "White Label online casino is a cost-effective, user friendly solution aimed at launching your own casino within one week.<br/>Thanks to our architecture, we can provide our partner with a ready-made project to get their own iGaming business up and running in the shortest time possible",
+	"solutionsTurnkey.pageTitle": "Cassino pronto para uso",
+	"solutionsTurnkey.pageDescription": "O cassino online chave na mão é um cassino online multifuncional próprio que lhe oferece oportunidades ilimitadas de personalização. A opção de cassino online chave na mão, mais adequada para operadores experientes de iGaming, fornece o software e o suporte técnico de que você precisa para ser independente.Nós o ajudaremos a montar um negócio iGaming e a obter sua própria licença de jogo",
+	"solutionsTurnkeyList": [
+		{
+			"id": 0,
+			"buttonSortId": 0,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Multicurrency<br/> & Multilingual",
+			"cardSortId": 0,
+			"title": "Soluções multi-moeda e multilíngües",
+			"description": "Oferece a possibilidade de obter um número ilimitado de idiomas e portfólios em várias moedas",
+			"hashHref": "multicurrency-multilingual",
+			"icon": {
+				"name": "MulticurrencyMultilingual3",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 1,
+			"buttonSortId": 1,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Gerenciamento de risco",
+			"cardSortId": 1,
+			"title": "Gestão de risco e fraude",
+			"description": "Uma solução de gerenciamento de risco orientada por IA será projetada para detectar e gerenciar jogadores de risco",
+			"hashHref": "risk-management",
+			"icon": {
+				"name": "RiskManagement",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 2,
+			"buttonSortId": 2,
+			"buttonTitleClassNameModify": "top-1",
+			"buttonTitle": "Portas de pagamento",
+			"cardSortId": 2,
+			"title": "Portas de pagamento",
+			"description": "Forneceremos um agregador de pagamentos que inclui muitos gateways de pagamento que oferecem pagamentos populares dependendo da localização e do mercado em que nosso parceiro op",
+			"hashHref": "payment-gateways",
+			"icon": {
+				"name": "PaymentGateways",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 3,
+			"buttonSortId": 3,
+			"buttonTitleClassNameModify": "top-2",
+			"buttonTitle": "Ferramentas promocionais",
+			"cardSortId": 3,
+			"title": "Ferramentas promocionais impressionantes",
+			"description": "Permite atrair mais jogadores com um novo tipo de bônus que não existe no mundo",
+			"hashHref": "promotional-tools",
+			"icon": {
+				"name": "PromotionalTools2",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 4,
+			"buttonSortId": 4,
+			"buttonTitleClassNameModify": "top-2",
+			"buttonTitle": "CRM",
+			"cardSortId": 4,
+			"title": "CRM e sistema de correio automatizado",
+			"description": "O CRM permitirá aos cassinos rastrear e gerenciar cada ação de seus jogadores e identificar quais jogadores são mais valiosos para o imóvel",
+			"hashHref": "crm",
+			"icon": {
+				"name": "CRM",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 5,
+			"buttonSortId": 5,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Mais de 10.000 jogos",
+			"cardSortId": 5,
+			"title": "Mais de 10.000 jogos dos principais fornecedores",
+			"description": "Os jogos de cassino mais populares são reunidos em um único agregador iGaming, e através de uma única integração API todo o conteúdo do jogo está disponível",
+			"hashHref": "games-10000",
+			"icon": {
+				"name": "Games100002",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 6,
+			"buttonSortId": 6,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Sem custos de instalação",
+			"cardSortId": 6,
+			"title": "Sem taxa de instalação - você ganha, nós ganhamos!",
+			"description": "Crie seu próprio cassino online com investimento ZERO!",
+			"hashHref": "no-setup-fee",
+			"icon": {
+				"name": "NoSetupFee2",
+				"width": "43.72px"
+			}
+		},
+		{
+			"id": 7,
+			"buttonSortId": 7,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "",
+			"cardSortId": 7,
+			"title": "Suporte técnico e ao cliente 24/7",
+			"description": "Atendimento ao cliente em vários idiomas. Solução completa do problema em 15 horas ou menos",
+			"hashHref": "",
+			"icon": {
+				"name": "",
+				"width": ""
+			}
+		}
+	],
+	"contacts.title": "Adoraríamos ouvir de você!",
+	"contacts.description": "A Atom Construct definitivamente fornecerá a melhor experiência do cliente no mercado. Por favor, preencha o formulário abaixo para entrar em contato conosco. Entraremos em contato com você o mais rápido possível",
+	"contacts.buttonLabel": "Receber uma proposta",
+	"contacts.sys.requiredField": "Campo obrigatório!",
+	"contacts.sys.nameMaxLength200": "O comprimento mínimo é de 200 caracteres",
+	"contacts.sys.InvalidEmail": "E-mail inválido",
+	"contacts.sys.nameMaxLength30": "O comprimento mínimo é de 30 caracteres",
+	"contacts.sys.nameMaxLength50": "O comprimento mínimo é de 50 caracteres",
+	"contacts.sys.nameMaxLength2000": "O comprimento mínimo é de 2000 caracteres",
+	"contacts.sys.popup.title": "Obrigada!",
+	"contacts.sys.popup.subTitle": "Nosso gerente de vendas entrará em contato com você o mais rápido possível",
+	"contacts.sys.popup.paragraph": "Apenas no caso, verifique sua pasta de spam também nas próximas 24 horas, pois nossa mensagem pode estar lá dependendo das configurações do filtro de spam",
+	"contacts.sys.popup.buttonTitle": "Ok",
+	"contacts.sys.popup.error.title": "Nós sentimos muito",
+	"contacts.sys.popup.error.subTitle": "Alguma coisa deu errado. Por favor, tente novamente mais tarde",
+	"contacts.sys.popup.error.buttonTitle": "Ok",
+	"contacts.sys.popup.error.paragraph": "",
+	"contacts.pageTitle": "Entre Em Contato",
+	"contacts.field.name.placeholder": "por exemplo, Nikola Tesla",
+	"contacts.field.name.label": "Seu nome",
+	"contacts.field.experience.label": "Descreva sua experiência",
+	"contacts.field.phone.label": "Telefone",
+	"contacts.field.prefferedMessenger.label": "Mensageiro Preferido",
+	"contacts.field.yourMessage.label": "Sua mensagem",
+	"contacts.field.agreeCheckbox.label": "Ao clicar neste botão, você concorda com o processamento de seus dados pessoais",
+	"contacts.field.messengerID": "por exemplo, live:123456",
+	"contacts.field.messengerID.label": "ID do mensageiro",
+	"contacts.submit.btn": "Enviar",
+	"contacts.field.textarea.placeholder": "O seu texto aqui...",
+	"contacts.field.email.label": "E-mail",
+	"e404.title": "Página não encontrada",
+	"e404.description": "Não conseguimos encontrar a página que você está procurando",
+	"e404.backButton": "Voltar ao início"
+}

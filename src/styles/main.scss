@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=block');
+@import "../../node_modules/reset-css/sass/reset";
+@import "abstracts/base";
+@import "abstracts/variables-functions";
+@import "abstracts/mixins";
+@import "components/main";
+
+html {
+	font-size: get-prop($global, "html-font-size");
+	overflow-x: hidden;
+}
+
+body,
+a,
+input,
+button,
+textarea {
+	@include museo(300);
+}
+
+a {
+	outline: 0;
+}
+
+// body
+body {
+	word-break: break-word;
+	cursor: default;
+}
+
+html,
+body,
+#__next {
+	width: 100%;
+	background-color: get-color(white1);
+	scroll-behavior: smooth;
+}
+
+
+
+
+
+// ::selection
+::selection {
+	color: get-color(white1);
+	background: get-color(dark5);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	appearance: none;
+}
+
+input[type="number"] {
+	appearance: textfield;
+}
+
+// .to-center
+.to-center {
+	@include flex(center);
+}
+
+// .flex-cell
+.flex-cell {
+	gap: calculate-rem(10px);
+}
+
+// .flex-cell
+// .d-flex
+.flex-cell,
+.d-flex {
+	@include flex;
+}
+
+// .select-cell
+.select-cell {
+	width: calculate-rem(170px);
+}
+
+// .display-none
+.display-none {
+	display: none !important;
+}
+
+// .white-txt
+.white-txt {
+	color: get-color(white1);
+}
+
+// header.main-header .logo
+// .main-nav .__ul
+header.main-header .logo,
+.main-nav .__ul {
+	@include p(fix, unset);
+
+	z-index: 10;
+}
+
+// .fix-bar
+.fix-bar {
+	transition: all linear 0.16s;
+}
+
+.for-scroll {
+	display: block;
+	width: 100%;
+}
+
+.e404,
+.products,
+.solution,
+.home {
+	&--ru {
+		text-decoration: none;
+	}
+
+	&--es {
+		text-decoration: none;
+	}
+
+	&--pt {
+		text-decoration: none;
+	}
+
+	&--en {
+		text-decoration: none;
+	}
+}
+
+// .arrow-to-top
+.arrow-to-top {
+	@include size(calculate-rem(48px));
+	position: fixed;
+	bottom: 10%;
+	right: 5%;
+	border-radius: 50%;
+	cursor: pointer;
+	color: get-color(white1);
+	z-index: 1000000;
+	transition: linear 0.16s transform;
+	will-change: transform;
+
+	// .arrow-to-top svg
+	svg {
+		@include position-center;
+	}
+
+	// .arrow-to-top:hover
+	&:hover {
+		transform: scale(1.16);
+	}
+
+	// .arrow-to-top--solutions
+	&--solutions {
+		background: get-color(gradient-solutions);
+	}
+
+	// .arrow-to-top--products
+	&--products {
+		background: get-color(gradient-products);
+	}
+
+	// .arrow-to-top--home
+	&--home {
+		background: get-color(gradient-home);
+	}
+
+	// .arrow-to-top--contacts
+	&--contacts {
+		background: get-color(gradient-contacts);
+	}
+}
+
+.ru {
+
+	// // .ru .main-title
+	// .main-title {
+	// 	font-size: calculate-rem(50px);
+	// 	line-height: calculate-rem(53px);
+	// }
+
+	// .main-header
+	.main-header {
+
+		// .main-header .default-btn
+		.default-btn {
+			font-size: calculate-rem(19px);
+		}
+
+	}
+
+	// .ru .card-advantage
+	.card-advantage {
+
+		// .ru .card-advantage__title
+		&__title {
+			font-size: calculate-rem(23px);
+			line-height: calculate-rem(32px);
+		}
+
+		// .ru .card-advantage__description
+		&__description {
+			font-size: calculate-rem(17px);
+			line-height: calculate-rem(26px);
+		}
+	}
+
+	// .ru .anchor-item
+	.anchor-item {
+
+		// .ru .anchor-item__title
+		&__title {
+			line-height: calculate-rem(21px);
+			font-size: calculate-rem(17px);
+		}
+	}
+}
+
+// .page-wrapper
+.page-wrapper {
+	@include p;
+	max-width: 1920px;
+	margin: 0 auto;
+
+	&:after {
+		content: "";
+		@include size(100%);
+		@include p("abs");
+		opacity: 0.5;
+
+		// @include media(get-media(m1030)) {
+		// 	background: url("../img/pages-bg/triple-vertical.png") center -1260px !important;
+		// }
+	}
+
+
+
+	// .page-wrapper--products
+	&--products {
+		.mobile-menu__a--current {
+			color: get-color(blue4);
+			text-decoration: underline;
+		}
+	}
+
+	// .page-wrapper--solutions
+	&--solution {
+		.mobile-menu__a--current {
+			color: get-color(green1);
+			text-decoration: underline;
+		}
+	}
+
+	// .page-wrapper--home
+	&--home {
+		.mobile-menu__a--current {
+			color: get-color(red1);
+			text-decoration: underline;
+		}
+	}
+
+	// .page-wrapper--contacts
+	&--contacts {
+		.mobile-menu__a--current {
+			color: get-color(yellow1);
+			text-decoration: underline;
+		}
+	}
+}
+
+
+
+
+// // body
+// body {
+// 	@include media(get-media(m1030)) {
+// 		background: url("../img/pages-bg/triple-vertical.png") center top green !important;
+// 		// background: url("../../../img/pages-bg/triple-vertical.png") no-repeat left -1060px;
+// 		// background: url("../img/pages-bg/triple-vertical.png") center top;
+// 		// border: solid aqua 10px;
+// 	}
+// }
+
+
+.amp {
+	font-family: 'Source Sans Pro', sans-serif;
+}

@@ -1,0 +1,50 @@
+/// list-remove
+/// Remove an item from a list
+/// @param $list - A SASS list
+/// @param $index - The list index to remove
+/// @returns A SASS list
+/// @author Jake Wilson <jake.e.wilson@gmail.com>
+/* stylelint-disable */
+/* prettier-ignore */
+@function list-remove($list, $index) {
+	$newList: ();
+	@for $i from 1 through length($list) {
+		@if $i != $index {
+			$newList: append($newList, nth($list, $i), "space");
+		}
+	}
+	@return $newList;
+}
+/* stylelint-enable */
+
+/*
+Here is a version that allows you
+to use a negative n value to remove
+from the back of the list
+and also takes into account the
+list separator and if the list
+is bracketed
+
+nth-delete( (foo bar baz qux), 2 )     =>  foo baz qux
+nth-delete( (foo, bar, baz, qux), 2 )  =>  foo, baz, qux
+nth-delete( [foo bar baz qux], 2 )     =>  [foo baz qux]
+nth-delete( [foo, bar, baz, qux], 2 )  =>  [foo, baz, qux]
+
+nth-delete( (foo bar baz qux), -2 )    =>  foo bar qux
+nth-delete( (foo, bar, baz, qux), -2 ) =>  foo, bar, qux
+nth-delete( [foo bar baz qux], -2 )    =>  [foo bar qux]
+nth-delete( [foo, bar, baz, qux], -2 ) =>  [foo, bar, qux]
+*/
+/* stylelint-disable */
+/* prettier-ignore */
+@function nth-delete($list, $n){
+    $result: ();
+    $n: if($n < 0, length($list) + $n + 1, $n);
+    $bracketed: is-bracketed($list);
+    $separator: list-separator($list);
+    @for $i from 1 through length($list){
+        @if $i != $n { $result: append($result, nth($list, $i)); }
+    }
+    @return join((), $result, $separator, $bracketed);
+}
+/* stylelint-enable */

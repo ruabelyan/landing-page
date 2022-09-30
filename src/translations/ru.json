@@ -1,0 +1,693 @@
+{
+	"langs": [
+		{
+			"id": 0,
+			"langCode": "en",
+			"label": "English"
+		},
+		{
+			"id": 1,
+			"langCode": "es",
+			"label": "Spanish"
+		},
+		{
+			"id": 2,
+			"langCode": "pt",
+			"label": "Br-Portugues"
+		},
+		{
+			"id": 3,
+			"langCode": "ru",
+			"label": "Russian"
+		}
+	],
+	"navLinks": [
+		{
+			"id": 0,
+			"label": "Главная",
+			"hrefTo": ["/"],
+			"category": "/"
+		},
+		{
+			"id": 1,
+			"label": "Продукты",
+			"hrefTo": [
+				"/products",
+				"/products-igaming-platform",
+				"/products-igaming-aggregator"
+			],
+			"category": "products"
+		},
+		{
+			"id": 2,
+			"label": "Решения",
+			"hrefTo": ["/solutions", "/solutions-white-label", "/solutions-turnkey"],
+			"category": "solutions"
+		},
+		{
+			"id": 3,
+			"label": "Контакыт",
+			"hrefTo": ["/contact-us", "/contact-us/#contacts"],
+			"category": "contact-us"
+		},
+		{
+			"id": 4,
+			"label": "API Documentation",
+			"hrefTo": ["/solutions/rgs/api"],
+			"category": "api"
+		}
+	],
+	"socialLinks": [
+		{
+			"id": 0,
+			"label": "Facebook",
+			"hrefTo": "https://www.facebook.com/atomconstruct.soft",
+			"icon": {
+				"label": "FacebookIcon",
+				"width": "17.67px"
+			}
+		},
+		{
+			"id": 1,
+			"label": "Instagram",
+			"hrefTo": "https://www.instagram.com/atom.construct/",
+			"icon": {
+				"label": "InstagramIcon",
+				"width": "17px"
+			}
+		},
+		{
+			"id": 2,
+			"label": "Twitter",
+			"hrefTo": "https://twitter.com/AtomConstruct",
+			"icon": {
+				"label": "TwitterIcon",
+				"width": "17px"
+			}
+		},
+		{
+			"id": 3,
+			"label": "Youtube",
+			"hrefTo": "https://www.youtube.com/channel/UCLzYwIhkd4hUFPcFgotdz9Q",
+			"icon": {
+				"label": "YoutubeIcon",
+				"width": "16.67px"
+			}
+		},
+		{
+			"id": 4,
+			"label": "linkedin",
+			"hrefTo": "https://www.linkedin.com/company/atomconstruct-soft/",
+			"icon": {
+				"label": "LinkedinIcon",
+				"width": "16px"
+			}
+		},
+		{
+			"id": 5,
+			"label": "pinterest",
+			"hrefTo": "http://www.pinterest.com/AtomConstruct",
+			"icon": {
+				"label": "LinkedinIcon",
+				"width": "11.99px"
+			}
+		}
+	],
+	"home.title": "Создайте свое собственное казино с Atom",
+	"home.description": "Наши решения делают ваш бизнес технологически продвинутым и многофункциональным",
+	"home.buttonLabel": "Получить предложение",
+	"home.mainTitle": "О Нас",
+	"home.mainDescription": "Мы являемся компанией по разработке программного обеспечения, ориентированного на данные. Мы предлагаем решения, которые расширяют возможности ваших азартных игр",
+	"home.about.list": [
+		{
+			"id": 0,
+			"title": "Игры",
+			"description": "Игры являются неотъемлемой частью любого онлайн-казино",
+			"quantity": "10000+"
+		},
+		{
+			"id": 1,
+			"title": "Провайдер",
+			"description": "Мы сотрудничаем с лучшими поставщиками игр для онлайн-казино, чтобы предложить нашим партнерам качественные, креативные и инновационные продукты",
+			"quantity": "100+"
+		},
+		{
+			"id": 2,
+			"title": "Партнеры",
+			"description": "Наши решения делают ваш бизнес технологически продвинутым и многофункциональным",
+			"quantity": "141+"
+		}
+	],
+
+	"home.cardTitle": "Наше Видение",
+	"home.cardsList": [
+		{
+			"id": 0,
+			"title": "Изменение мышления и образа ведения бизнеса в игровой индустрии",
+			"description": ""
+		},
+		{
+			"id": 1,
+			"title": "Создание новых преимуществ благодаря техническим инновациям и передовому ИИ",
+			"description": ""
+		}
+	],
+	"home.project.footer.offer": "Atom, безусловно, обеспечит вам и вашей компании наилучший клиентский опыт, которого вы хотите для своих клиентов",
+	"home.project.copyright": "Все права защищены",
+
+	"products.title": "Продукты Atom Casino",
+	"products.description": "Простой способ быть другим.<br/>Мы можем предложить лучший способ",
+	"products.buttonLabel": "Получить предложение",
+
+	"products.pageTitle": "Наши продукты",
+	"products.pageDescription": "Atom Construct предлагает операторам казино высококачественные и инновационные продукты, которые помогут операторам выделиться и быть конкурентоспособными в индустрии",
+
+	"products.platform.title": "iGaming Платформа",
+	"products.platform.description": "Платформа Igaming - это удобный инструмент управления. Это среда, из которой сотрудники оператора казино могут выполнять и управлять всей деятельностью игроков, такой как отслеживание и отчетность об их игровой истории, отслеживание финансовых транзакций, управление партнерскими отношениями, мониторинг статистических данных",
+
+	"products.aggregator.title": "Агрегатор iGaming",
+	"products.aggregator.description": "Агрегатор iGaming предоставляет более 10 000 многоязычных и удобных для мобильных устройств игр от более чем 100 ведущих всемирно известных продавцов игр в одном месте",
+
+	"productsIgamingPlatform.pageTitle": "iGaming Платформа",
+	"productsIgamingPlatform.pageDescription": "Платформа Igaming - это удобный инструмент управления. Это среда, из которой сотрудники оператора казино могут выполнять и управлять всей деятельностью игроков, такой как отслеживание и отчетность об их игровой истории, отслеживание финансовых транзакций, управление партнерскими отношениями, мониторинг статистических данных",
+
+	"productsIgamingPlatformList": [
+		{
+			"id": 0,
+			"buttonSortId": 0,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Быстрый выход<br/> на рынок",
+			"cardSortId": 0,
+			"title": "Одна неделя, чтобы создать свой собственный игорный бизнес",
+			"description": "Создайте свой готовый проект по шаблону, чтобы начать свою игровую деятельность",
+			"hashHref": "1-weeg-igaming-business",
+			"icon": {
+				"name": "FastGoToMarket",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 1,
+			"buttonSortId": 1,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Самые низкие<br/>цены",
+			"cardSortId": 1,
+			"title": "Самые низкие Цены",
+			"description": "Предложите нашим партнерам самые низкие процентные ставки на рынке для сотрудничества, без каких-либо сборов за установку",
+			"hashHref": "the-lowest-prices",
+			"icon": {
+				"name": "TheLowestPrices",
+				"width": "30.27px"
+			}
+		},
+		{
+			"id": 2,
+			"buttonSortId": 2,
+			"buttonTitleClassNameModify": "top-1",
+			"buttonTitle": "Высокая<br/>производительность",
+			"cardSortId": 2,
+			"title": "Все в одном продукте и высокая производительность",
+			"description": "Благодаря новейшим технологиям, предоставляющим уникальную возможность совершать до 18 000 ставок в секунду, и все решения, необходимые пользователям для их повседневной работы",
+			"hashHref": "all-in-one-and-high-performance",
+			"icon": {
+				"name": "HighPerformance",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 3,
+			"buttonSortId": 3,
+			"buttonTitleClassNameModify": "top-2",
+			"buttonTitle": "Управляйте<br/>игроками",
+			"cardSortId": 3,
+			"title": "Управляйте игроками",
+			"description": "История активности игрока, управление проверкой документов, пользовательские бонусы, KYC, механизм борьбы с мошенничеством, программа лояльности, мультивалютный кошелек",
+			"hashHref": "manage-players",
+			"icon": {
+				"name": "ManagePlayers",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 4,
+			"buttonSortId": 4,
+			"buttonTitleClassNameModify": "top-2",
+			"buttonTitle": "Рекламные<br/>инструменты",
+			"cardSortId": 4,
+			"title": "Рекламные инструменты",
+			"description": "Позволяет привлечь больше игроков с помощью нового типа бонусов, который недоступен в мире",
+			"hashHref": "promotional-tools",
+			"icon": {
+				"name": "PromotionalTools",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 5,
+			"buttonSortId": 5,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Продвинутый<br/>искусственный интеллект",
+			"cardSortId": 5,
+			"title": "Новейший искусственный интеллект",
+			"description": "Система рекомендаций искусственного интеллекта для игроков, основанная на больших данных",
+			"hashHref": "advanced-ai",
+			"icon": {
+				"name": "AdvancedAi",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 6,
+			"buttonSortId": 6,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Конструктор<br/>веб-сайтов и CMS",
+			"cardSortId": 6,
+			"title": "Конструктор веб-сайтов и CMS",
+			"description": "Пользователю не нужно обладать какими-либо техническими знаниями, чтобы создать свой собственный сайт и легко управлять им, настраивать",
+			"hashHref": "website-builder-and-cms",
+			"icon": {
+				"name": "WebsiteBuilderCms",
+				"width": "46.67px"
+			}
+		},
+		{
+			"id": 7,
+			"buttonSortId": 7,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "",
+			"cardSortId": 7,
+			"title": "Система отчетности",
+			"description": "Отчеты в режиме реального времени о платежах, ставках, бонусах и многом другом с возможностью мультивалютности",
+			"hashHref": "reporting-system",
+			"icon": {
+				"name": "",
+				"width": ""
+			}
+		}
+	],
+	"productsIgamingAggregator.pageTitle": "iGaming Агрегатор",
+	"productsIgamingAggregator.pageDescription": "Агрегатор iGaming предоставляет более 10 000 многоязычных и удобных для мобильных устройств игр от более чем 100 ведущих всемирно известных продавцов игр в одном месте.iGaming Агрегатор предоставит возможность управлять, активировать и контролировать весь игровой контент, который будет необходим для удовлетворения игроков",
+
+	"productsIgamingAggregatorList": [
+		{
+			"id": 0,
+			"buttonSortId": 0,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Гибкая<br/>Система Бонусов",
+			"cardSortId": 0,
+			"title": "Гибкая Система Бонусов",
+			"description": "Позволяет привлечь больше игроков с помощью нового типа бонусов, который никогда ранее не был замечен в мире",
+			"hashHref": "flexible-bonus-engine",
+			"icon": {
+				"name": "PromotionalTools",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 1,
+			"buttonSortId": 1,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Несколько языков<br/>и несколько валют",
+			"cardSortId": 1,
+			"title": "Несколько языков и несколько валют",
+			"description": "Предоставление многоязычного интерфейса для бизнеса и возможность получения мультивалютных счетов",
+			"hashHref": "multiple-languages-and-multiple-currencies",
+			"icon": {
+				"name": "MulticurrencyMultilingual",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 2,
+			"buttonSortId": 2,
+			"buttonTitleClassNameModify": "top-1",
+			"buttonTitle": "10000+ игр",
+			"cardSortId": 2,
+			"title": "Более 100 всемирно известных поставщиков игр",
+			"description": "Почти 10 000+ потрясающих игр от всемирно известных игровых студий",
+			"hashHref": "world-famous-game-providers",
+			"icon": {
+				"name": "Games10000",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 3,
+			"buttonSortId": 3,
+			"buttonTitleClassNameModify": "top-2",
+			"buttonTitle": "Единовременная<br/>интеграция с API",
+			"cardSortId": 3,
+			"title": "Единовременная интеграция API с сторонним PAM/кошельком",
+			"description": "Единый простой API для всех потребностей в агрегировании игр. Быстрая и простая интеграция и настройка Благодаря нашему простому и удобному API",
+			"hashHref": "one-time-api-integration",
+			"icon": {
+				"name": "OneTimeApiIntegration",
+				"width": "50px"
+			}
+		},
+
+		{
+			"id": 4,
+			"buttonSortId": 4,
+			"buttonTitleClassNameModify": "top-2",
+			"buttonTitle": "Сокращение времени<br/>выхода на рынок",
+			"cardSortId": 4,
+			"title": "Сокращение времени выхода на рынок",
+			"description": "Запуск в кратчайшие сроки и возможность выхода на рынок, около 1 недели",
+			"hashHref": "reduced-time-to-market",
+			"icon": {
+				"name": "ReducedTimeToMarket",
+				"width": "50px"
+			}
+		},
+
+		{
+			"id": 5,
+			"buttonSortId": 5,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Более 100+<br/>провайдеров",
+			"cardSortId": 5,
+			"title": "Более 100 всемирно известных поставщиков игр",
+			"description": "Почти 10 000+ потрясающих игр от всемирно известных игровых студий",
+			"hashHref": "over-100-providers",
+			"icon": {
+				"name": "OverProviders",
+				"width": "50px"
+			}
+		},
+
+		{
+			"id": 6,
+			"buttonSortId": 6,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Поддержка 24/7",
+			"cardSortId": 6,
+			"title": "Круглосуточная Поддержка клиентов и Техническая поддержка клиентов",
+			"description": "Многоязычная служба поддержки клиентов. Полное решение проблем за 15 часов или меньше",
+			"hashHref": "support-24-7",
+			"icon": {
+				"name": "AnyTime",
+				"width": "50px"
+			}
+		},
+
+		{
+			"id": 7,
+			"buttonSortId": 7,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "",
+			"cardSortId": 7,
+			"title": "Готовое к использованию решение для онлайн-казино за короткое время внедрения",
+			"description": "Поможем вам создать готовый проект для запуска и запуска вашего игорного бизнеса в кратчайшие сроки, примерно за 2 недели",
+			"hashHref": "",
+			"icon": {
+				"name": "",
+				"width": ""
+			}
+		}
+	],
+
+	"solutions.title": "Решения",
+	"solutions.description": "Будучи чисто B2B бизнес, AtomConstruct предоставляет два типа решений с <strong>НУЛЕВЫМИ ЗАТРАТАМИ НА УСТАНОВКУ</strong>. Atom подходит для интеграции любой игровой платформы на рынке",
+	"solutions.buttonLabel": "Получить предложение",
+	"solutions.pageTitle": "Решения",
+	"solutions.pageDescription": "Будучи чисто B2B бизнес, AtomConstruct предоставляет два типа решений с <strong>НУЛЕВЫМИ ЗАТРАТАМИ НА УСТАНОВКУ</strong>. Atom подходит для интеграции любой игровой платформы на рынке",
+
+	"solutions.cardsList[0].title": "Казино White Label",
+
+	"solutions.cardsList[0].description": "Казино White Label - это экономичное и удобное в использовании решение, направленное на запуск вашего собственного казино в течение одной недели.<br/><br/> Благодаря нашей архитектуре мы можем предоставить нашему партнеру готовый проект для запуска и запуска собственного игорного бизнеса в кратчайшие сроки",
+
+	"solutionsWhiteLabelList": [
+		{
+			"id": 0,
+			"buttonSortId": 0,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Выход на рынок",
+			"cardSortId": 0,
+			"title": "Самый быстрый выход на рынок: в течение одной недели",
+			"description": "Готовое к использованию решение для онлайн-казино за короткое время внедрения",
+			"hashHref": "market-entry",
+			"icon": {
+				"name": "MarketEntry",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 1,
+			"buttonSortId": 1,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Кросс-платформенный",
+			"cardSortId": 1,
+			"title": "Кроссплатформенное решение с мощным бэк-офисом",
+			"description": "Предоставление продуктов, которые будут охватывать повседневную работу партнеров в рамках одного бэк-офиса",
+			"hashHref": "cross-platform",
+			"icon": {
+				"name": "CrossPlatform",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 2,
+			"buttonSortId": 2,
+			"buttonTitleClassNameModify": "top-1",
+			"buttonTitle": "Нет платы за установку",
+			"cardSortId": 2,
+			"title": "Никакой платы за установку. Вы зарабатываете - мы зарабатываем!!!",
+			"description": "Создайте свое собственное онлайн-казино с НУЛЕВЫМИ инвестициями!",
+			"hashHref": "no-setup-fee",
+			"icon": {
+				"name": "NoSetupFee",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 3,
+			"buttonSortId": 3,
+			"buttonTitleClassNameModify": "top-2",
+			"buttonTitle": "Более 10 000 игр",
+			"cardSortId": 3,
+			"title": "Более 10 000 игр от всемирно известных ведущих провайдеров",
+			"description": "Популярные игры казино с помощью всего одной интеграции API",
+			"hashHref": "games-10000",
+			"icon": {
+				"name": "MoreGames",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 4,
+			"buttonSortId": 4,
+			"buttonTitleClassNameModify": "top-2",
+			"buttonTitle": "Мультивалютный<br/>и Многоязычный",
+			"cardSortId": 4,
+			"title": "Мультивалютность и неограниченное количество языков",
+			"description": "Предоставить возможность получения неограниченного количества языков и валют",
+			"hashHref": "multicurrency-multilingual",
+			"icon": {
+				"name": "MulticurrencyMultilingual2",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 5,
+			"buttonSortId": 5,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Интерфейс",
+			"cardSortId": 5,
+			"title": "Удобный интерфейс с многоязычными настройками",
+			"description": "Обеспечьте удобный интерфейс, который повышает ежедневную производительность и упрощает его использование",
+			"hashHref": "interface",
+			"icon": {
+				"name": "Interface",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 6,
+			"buttonSortId": 6,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Поддержка 24/7",
+			"cardSortId": 6,
+			"title": "Круглосуточная Поддержка клиентов и Техническая поддержка клиентов",
+			"description": "Многоязычная служба поддержки клиентов. Полное решение проблем за 15 часов или меньше",
+			"hashHref": "support-24-7",
+			"icon": {
+				"name": "AnyTime2",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 7,
+			"buttonSortId": 7,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Рекламные инструменты",
+			"cardSortId": 7,
+			"title": "Потрясающие рекламные инструменты",
+			"description": "Позволяет привлечь больше игроков с помощью нового типа бонусов, который недоступен в мире",
+			"hashHref": "",
+			"icon": {
+				"name": "",
+				"width": ""
+			}
+		}
+	],
+
+	"solutions.cardsList[1].title": "Казино под ключ",
+	"solutions.cardsList[1].description": "Онлайн-казино 'Под ключ' - это собственное многофункциональное онлайн-казино, которое предоставляет вам неограниченные возможности настройки.<br/><br/>Вариант онлайн-казино 'под ключ', который лучше всего подходит опытным операторам iGaming, предоставляет программное обеспечение и техническую поддержку, необходимые вам для независимости",
+
+	"solutionsWhiteLabel.pageTitle": "Казино White Label",
+	"solutionsWhiteLabel.pageDescription": "Казино White Label - это экономичное и удобное в использовании решение, направленное на запуск вашего собственного казино в течение одной недели. <br/><br/> Благодаря нашей архитектуре мы можем предоставить нашему партнеру готовый проект для запуска и запуска собственного игорного бизнеса в кратчайшие сроки",
+
+	"solutionsTurnkey.pageTitle": "Казино под ключ",
+	"solutionsTurnkey.pageDescription": "Онлайн-казино 'Под ключ' - это собственное многофункциональное онлайн-казино, которое предоставляет вам неограниченные возможности настройки.<br/><br/>Вариант онлайн-казино 'под ключ', который лучше всего подходит опытным операторам iGaming, предоставляет программное обеспечение и техническую поддержку, необходимые вам для независимости.Мы поможем вам создать игорный бизнес и получить собственную игровую лицензию",
+
+	"solutionsTurnkeyList": [
+		{
+			"id": 0,
+			"buttonSortId": 0,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Мультивалютный<br/>и Многоязычный",
+			"cardSortId": 0,
+			"title": "Мультивалютные и многоязычные решения",
+			"description": "Предоставить возможность получения неограниченного количества языков и мультивалютных кошельков",
+			"hashHref": "multicurrency-multilingual",
+			"icon": {
+				"name": "MulticurrencyMultilingual3",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 1,
+			"buttonSortId": 1,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Управление рисками",
+			"cardSortId": 1,
+			"title": "Управление рисками и мошенничеством",
+			"description": "Решение для управления рисками на базе искусственного интеллекта будет разработано для выявления рисковых игроков и управления ими",
+			"hashHref": "risk-management",
+			"icon": {
+				"name": "RiskManagement",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 2,
+			"buttonSortId": 2,
+			"buttonTitleClassNameModify": "top-1",
+			"buttonTitle": "Платежные шлюзы",
+			"cardSortId": 2,
+			"title": "Платежные шлюзы",
+			"description": "Мы предоставим платежный агрегатор, который включает в себя множество платежных шлюзов, предлагающих популярные платежи в зависимости от местоположения и рынка, на котором будет работать наш партнер. Также мы предоставляем бесплатную возможность интегрировать любой другой способ оплаты по запросу партнера",
+			"hashHref": "payment-gateways",
+			"icon": {
+				"name": "PaymentGateways",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 3,
+			"buttonSortId": 3,
+			"buttonTitleClassNameModify": "top-2",
+			"buttonTitle": "Рекламные инструменты",
+			"cardSortId": 3,
+			"title": "Потрясающие рекламные инструменты",
+			"description": "Позволяет привлечь больше игроков с помощью нового типа бонусов, который недоступен в мире",
+			"hashHref": "promotional-tools",
+			"icon": {
+				"name": "PromotionalTools2",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 4,
+			"buttonSortId": 4,
+			"buttonTitleClassNameModify": "top-2",
+			"buttonTitle": "CRM",
+			"cardSortId": 4,
+			"title": "CRM и автоматизированная система рассылки",
+			"description": "CRM позволит казино отслеживать и управлять действиями каждого из своих игроков и определять, какие игроки наиболее ценны для собственности",
+			"hashHref": "crm",
+			"icon": {
+				"name": "CRM",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 5,
+			"buttonSortId": 5,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Более 10 000 игр",
+			"cardSortId": 5,
+			"title": "Более 10 000 игр от ведущих провайдеров",
+			"description": "Популярные игры казино собраны в одном агрегаторе iGaming, и всего за одну интеграцию с API вы можете получить весь игровой контент",
+			"hashHref": "games-10000",
+			"icon": {
+				"name": "Games100002",
+				"width": "50px"
+			}
+		},
+		{
+			"id": 6,
+			"buttonSortId": 6,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "Без платы за установку",
+			"cardSortId": 6,
+			"title": "Никакой платы за установку. Вы зарабатываете - мы зарабатываем!!!",
+			"description": "Создайте свое собственное онлайн-казино с НУЛЕВЫМИ инвестициями!",
+			"hashHref": "no-setup-fee",
+			"icon": {
+				"name": "NoSetupFee2",
+				"width": "43.72px"
+			}
+		},
+
+		{
+			"id": 7,
+			"buttonSortId": 7,
+			"buttonTitleClassNameModify": "bottom-1",
+			"buttonTitle": "",
+			"cardSortId": 7,
+			"title": "Круглосуточная Поддержка клиентов и Техническая поддержка клиентов",
+			"description": "Многоязычная служба поддержки клиентов. Полное решение проблем за 15 часов или меньше",
+			"hashHref": "",
+			"icon": {
+				"name": "",
+				"width": ""
+			}
+		}
+	],
+
+	"contacts.title": "Мы хотели бы услышать от тебя",
+	"contacts.description": "Atom Construct, безусловно, обеспечит вам лучший клиентский опыт на рынке. Пожалуйста, заполните форму ниже, чтобы связаться с нами. Мы свяжемся с вами при первой же возможности",
+	"contacts.buttonLabel": "Получить предложение",
+	"contacts.sys.requiredField": "Обязательное поле!",
+	"contacts.sys.nameMaxLength200": "Максимальная длина имени не должна превышать 200 символов",
+	"contacts.sys.InvalidEmail": "Неверный адрес электронной почты",
+	"contacts.sys.nameMaxLength30": "Максимальная длина телефонного номера не должна превышать 30 символов",
+	"contacts.sys.nameMaxLength50": "Максимальная длина телефонного номера не должна превышать 50 символов",
+	"contacts.sys.nameMaxLength2000": "Максимальная длина сообщения составляет 2000",
+	"contacts.sys.popup.title": "Спасибо!",
+	"contacts.sys.popup.subTitle": "Наш менеджер по продажам свяжется с вами как можно скорее",
+	"contacts.sys.popup.paragraph": "На всякий случай, пожалуйста, также проверьте свою папку со спамом в течение следующих 24 часов, так как наше сообщение может попасть туда в зависимости от настроек вашего спам-фильтра",
+	"contacts.sys.popup.buttonTitle": "Oк",
+	"contacts.sys.popup.error.title": "Нам очень жаль!",
+	"contacts.sys.popup.error.subTitle": "Что-то пошло не так. Пожалуйста, попробуйте немного позже",
+	"contacts.sys.popup.error.buttonTitle": "Oк",
+	"contacts.sys.popup.error.paragraph": "",
+	"contacts.pageTitle": "Связаться с нами",
+	"contacts.field.name.placeholder": "например, Никола Тесла",
+	"contacts.field.name.label": "Ваше имя",
+	"contacts.field.experience.label": "Опишите свой опыт",
+	"contacts.field.phone.label": "Телефон",
+	"contacts.field.prefferedMessenger.label": "Предпочитаемый Мессенджер",
+	"contacts.field.yourMessage.label": "Ваше сообщение",
+	"contacts.field.agreeCheckbox.label": "Нажав на эту кнопку, вы даете согласие на обработку ваших персональных данных",
+	"contacts.field.messengerID": "например, live:123456",
+	"contacts.field.messengerID.label": "Идентификатор Мессенджера",
+	"contacts.submit.btn": "Отправить",
+	"contacts.field.textarea.placeholder": "Введите ваш текст...",
+	"contacts.field.email.label": "Эл. почта",
+	"e404.title": "Страница не найдена!",
+	"e404.description": "Мы не можем найти страницу, которую вы ищете",
+	"e404.backButton": "На Главную"
+}
